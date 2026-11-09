@@ -1,0 +1,6 @@
+{
+  "name": "OSP201 Smart Adaptive Learning",
+  "description": "Ứng dụng ôn thi trắc nghiệm OSP201 theo phương pháp Spaced Repetition (Leitner SRS), Active Recall và Feynman Notes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

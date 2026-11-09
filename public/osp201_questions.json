@@ -1,0 +1,5794 @@
+[
+  {
+    "id": 5,
+    "question": "The nmap command checks for open ports on a remote system.",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_005.png"
+  },
+  {
+    "id": 6,
+    "question": "The PSDN network is associated with regular telephone modems.",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_006.png"
+  },
+  {
+    "id": 7,
+    "question": "Tripwire and AIDE are both host-based intrusion detection systems (HIDS).",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_007.png"
+  },
+  {
+    "id": 9,
+    "question": "From the file ____ the \"iptables\" command reads ports of well-known services.",
+    "options": {
+      "A": "/var/log/ports",
+      "B": "/etc/services",
+      "C": "/etc/fstab",
+      "D": "/root/known_hosts",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_009.png"
+  },
+  {
+    "id": 10,
+    "question": "PAM configuration files are located in ____.",
+    "options": {
+      "A": "/pam.d",
+      "B": "/opt/pam.d",
+      "C": "/root/pam.d",
+      "D": "/etc/pam.d"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_010.png"
+  },
+  {
+    "id": 11,
+    "question": "The file ______ holds configuration settings for the extended internet super server.",
+    "options": {
+      "A": "/etc/xinetd.conf",
+      "B": "/etc/sysctl.conf",
+      "C": "/etc/default.conf",
+      "D": "/etc/inetd.conf",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "",
+    "note_raw": "",
+    "image_path": "osp201_screenshots/slide_011.png"
+  },
+  {
+    "id": 12,
+    "question": "The sticky bit is most commonly associated with directory _______.",
+    "options": {
+      "A": "/home",
+      "B": "/bin",
+      "C": "/sbin",
+      "D": "/tmp",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "",
+    "note_raw": "",
+    "image_path": "osp201_screenshots/slide_012.png"
+  },
+  {
+    "id": 13,
+    "question": "The item ______ is an example of discretionary access controls.",
+    "options": {
+      "A": "SELinux",
+      "B": "AppArmor",
+      "C": "PolicyKit",
+      "D": "User-defined read, write, and execute permissions",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "",
+    "note_raw": "",
+    "image_path": "osp201_screenshots/slide_013.png"
+  },
+  {
+    "id": 14,
+    "question": "The directory ______ renders many applications unusable, including logging into the GUI, if the space allocated to the /tmp/ filesystem is full.",
+    "options": {
+      "A": "/etc/",
+      "B": "/tmp/",
+      "C": "/bin/",
+      "D": "/var/",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_014.png"
+  },
+  {
+    "id": 15,
+    "question": "The directory ______ does the FHS recommend for locating the configuration files.",
+    "options": {
+      "A": "/etc/",
+      "B": "/var/",
+      "C": "/opt/",
+      "D": "/usr/",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "",
+    "note_raw": "",
+    "image_path": "osp201_screenshots/slide_015.png"
+  },
+  {
+    "id": 16,
+    "question": "The FHS directory ______ can be mounted separately from the root directory.",
+    "options": {
+      "A": "/sbin/",
+      "B": "/bin/",
+      "C": "/home/",
+      "D": "/etc/",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "",
+    "note_raw": "",
+    "image_path": "osp201_screenshots/slide_016.png"
+  },
+  {
+    "id": 17,
+    "question": "The sticky bit is most commonly associated with directory _______",
+    "options": {
+      "A": "/home/",
+      "B": "/bin/",
+      "C": "/sbin/",
+      "D": "/tmp/",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "",
+    "note_raw": "",
+    "image_path": "osp201_screenshots/slide_017.png"
+  },
+  {
+    "id": 18,
+    "question": "The Grand Unified Bootloader (GRUB) configuration file is generally located in the ______ directory.",
+    "options": {
+      "A": "/home/",
+      "B": "/root/",
+      "C": "/var/",
+      "D": "/boot/"
+    },
+    "correct_answer": "",
+    "note_raw": "",
+    "image_path": "osp201_screenshots/slide_018.png"
+  },
+  {
+    "id": 19,
+    "question": "The GRUB configuration file is generally located in the ______ directory.",
+    "options": {
+      "A": "/home/",
+      "B": "/root/",
+      "C": "/var/",
+      "D": "/boot/",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_019.png"
+  },
+  {
+    "id": 20,
+    "question": "The file to configure the various logging subsystem facilities for sysklogd package is ______",
+    "options": {
+      "A": "/etc/sysklogd.conf",
+      "B": "/etc/syslog.conf",
+      "C": "/etc/logs.conf",
+      "D": "/etc/boot.log",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "",
+    "note_raw": "",
+    "image_path": "osp201_screenshots/slide_020.png"
+  },
+  {
+    "id": 21,
+    "question": "Tuning the kernel parameters, such as the networking functionality, can be accomplished by editing the ______ file.",
+    "options": {
+      "A": "/etc/sysctl.conf",
+      "B": "/etc/kernel.conf",
+      "C": "/etc/network.conf",
+      "D": "/etc/parameters.conf",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_021.png"
+  },
+  {
+    "id": 22,
+    "question": "What is the command to view the current Linux kernel parameters?",
+    "options": {
+      "A": "cat /etc/sysctl.conf",
+      "B": "cat /etc/sysctl/sysctl.conf",
+      "C": "cat /etc/fstab",
+      "D": "cat /etc/init.d"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_022.png"
+  },
+  {
+    "id": 23,
+    "question": "What configuration file is used to configure ACLs for a filesystem?",
+    "options": {
+      "A": "/etc/fstab",
+      "B": "/etc/acl",
+      "C": "/etc/pam.d/acl",
+      "D": "/etc/filesystems"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_023.png"
+  },
+  {
+    "id": 24,
+    "question": "Which of the following configuration files is considered first with respect to TCP Wrapper security?",
+    "options": {
+      "A": "/etc/inetd.conf",
+      "B": "/etc/xinetd.conf",
+      "C": "/etc/hosts.allow",
+      "D": "/etc/hosts.deny"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_024.png"
+  },
+  {
+    "id": 25,
+    "question": "Which of the following library files is associated with TCP Wrapper?",
+    "options": {
+      "A": "/etc/libwrap.so.0",
+      "B": "/lib/libwrap.so.0",
+      "C": "/usr/lib/libwrap.so.0",
+      "D": "/var/lib/libwrap.so.0"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_025.png"
+  },
+  {
+    "id": 26,
+    "question": "Which of these files is necessary for regular users to access the “at” daemon?",
+    "options": {
+      "A": "/etc/at",
+      "B": "/etc/at.deny",
+      "C": "/etc/at.conf",
+      "D": "/etc/at/at.deny",
+      "E": "/boot/at"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_026.png"
+  },
+  {
+    "id": 27,
+    "question": "Which command can you run to list all the kernel's available parameters?",
+    "options": {
+      "A": "/sbin/sysctl -a",
+      "B": "/etc/sysctl --list-all",
+      "C": "/sbin/sysctl --list-all",
+      "D": "/etc/sysctl -a"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_027.png"
+  },
+  {
+    "id": 28,
+    "question": "Which of the following directories include active AppArmor profiles?",
+    "options": {
+      "A": "/etc/apparmor/",
+      "B": "/etc/apparmor.d/",
+      "C": "/usr/share/doc/apparmor-profiles/extras/",
+      "D": "/usr/share/doc/apparmor-profiles/"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_028.png"
+  },
+  {
+    "id": 29,
+    "question": "Which file is referenced for associating port numbers with services?",
+    "options": {
+      "A": "/etc/network/interfaces",
+      "B": "/etc/services",
+      "C": "/etc/iptables/rules.v4",
+      "D": "/etc/firewall/rules"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_029.png"
+  },
+  {
+    "id": 30,
+    "question": "Which file would you check to view group memberships in Linux?",
+    "options": {
+      "A": "/etc/passwd",
+      "B": "/etc/group",
+      "C": "/etc/shadow",
+      "D": "/etc/gshadow"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_030.png"
+  },
+  {
+    "id": 31,
+    "question": "Which Linux directory is used as the mount point for external devices such as USB drives or CD-ROMs?",
+    "options": {
+      "A": "/mnt",
+      "B": "/var",
+      "C": "/dev",
+      "D": "/boot"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_031.png"
+  },
+  {
+    "id": 32,
+    "question": "When considering user quotas, which directory from this list is most appropriate for enforcing disk usage limitations?",
+    "options": {
+      "A": "/etc/",
+      "B": "/home/",
+      "C": "/opt/",
+      "D": "/usr/",
+      "E": "/local/"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_032.png"
+  },
+  {
+    "id": 33,
+    "question": "Where do you find regular service scripts, such as start, stop, restart, and status?",
+    "options": {
+      "A": "/etc/services",
+      "B": "/var",
+      "C": "/etc/init.d/",
+      "D": "/scripts",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_033.png"
+  },
+  {
+    "id": 34,
+    "question": "Where is the GRUB configuration file found?",
+    "options": {
+      "A": "/boot/grub",
+      "B": "/fstab",
+      "C": "/etc/grub",
+      "D": "/dev",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_034.png"
+  },
+  {
+    "id": 35,
+    "question": "Among the provided directory paths, which one typically houses files pertaining to third-party software applications?",
+    "options": {
+      "A": "/etc/",
+      "B": "/home/",
+      "C": "/opt/",
+      "D": "/usr/"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_035.png"
+  },
+  {
+    "id": 36,
+    "question": "During the process of configuring SSH access on a remote system, which file should receive the user's public key?",
+    "options": {
+      "A": ".ssh/authorized_keys",
+      "B": ".ssh/id_rsa.pub",
+      "C": ".ssh/id_dsa.pub",
+      "D": ".ssh/id_authorized.pub",
+      "E": ".ssh/keys"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_036.png"
+  },
+  {
+    "id": 37,
+    "question": "For a read-only mount point, which of these directories is the most suitable choice?",
+    "options": {
+      "A": "/boot/",
+      "B": "/home/",
+      "C": "/mnt/",
+      "D": "/srv/"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_037.png"
+  },
+  {
+    "id": 38,
+    "question": "In which directory can you find scripts for active services?",
+    "options": {
+      "A": "/etc/init.d/",
+      "B": "/etc/xinetd.d/",
+      "C": "/active/init.d/",
+      "D": "/active/xinetd.d/",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_038.png"
+  },
+  {
+    "id": 39,
+    "question": "Standard logging services store logs in subdirectories of _______.",
+    "options": {
+      "A": "/lib/log",
+      "B": "/bin/log",
+      "C": "/tmp/log",
+      "D": "/var/log/",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_039.png"
+  },
+  {
+    "id": 40,
+    "question": "Service scripts in a system controlled by the init master process are kept in which directory?",
+    "options": {
+      "A": "/proc",
+      "B": "/etc/proc",
+      "C": "/init",
+      "D": "/etc/init.d"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_040.png"
+  },
+  {
+    "id": 41,
+    "question": "You want to allow members of the users group to use fdisk on the /dev/sda drive (and only that drive) and to use the yum command to update and install packages. Which command do you run?",
+    "options": {
+      "A": "%users ALL=/sbin/fdisk /mnt/sda, /bin/yum",
+      "B": "%users ALL=/tmp/fdisk /dev/sda, /usr/bin/yum",
+      "C": "%users ALL=/sbin/fdisk /dev/sda, /usr/bin/yum",
+      "D": "%users ALL=/tmp/fdisk /mnt/sda, /bin/yum"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_041.png"
+  },
+  {
+    "id": 42,
+    "question": "Which of the following configuration files are used by TCP Wrapper to control access?",
+    "options": {
+      "A": "/etc/hosts.allow and /etc/hosts.deny",
+      "B": "/etc/tcpwrapper.conf and /etc/firewall.conf",
+      "C": "/etc/tcp.allow and /etc/tcp.deny",
+      "D": "/etc/security/access.conf and /etc/services"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_042.png"
+  },
+  {
+    "id": 43,
+    "question": "What command is used to export a public key in GPG?",
+    "options": {
+      "A": "gpg --export-key",
+      "B": "gpg --send-key",
+      "C": "gpg --export",
+      "D": "gpg --output-key"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_043.png"
+  },
+  {
+    "id": 46,
+    "question": "LAMP stands for Linux/Apache/MySQL/P, where the \"P\" can stand for _____. (i) Perl (ii) Python (iii) PHP",
+    "options": {
+      "A": "(i)",
+      "B": "(ii)",
+      "C": "(iii)",
+      "D": "(i), (ii) and (iii)",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_046.png"
+  },
+  {
+    "id": 47,
+    "question": "Choose a true statement. (i) A hash function and a checksum are the same thing. (ii) A hash function is a procedure or function that converts a large amount of data to a single (long) number. (iii) SHA-1 is a checksum whereas SHA-3 is a hash function.",
+    "options": {
+      "A": "(i)",
+      "B": "(ii)",
+      "C": "(iii)",
+      "D": "(i) and (ii)",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_047.png"
+  },
+  {
+    "id": 48,
+    "question": "______ is an insecure method of remote access.\n(i) SSH\n(ii) IPSec\n(iii) Telnet",
+    "options": {
+      "A": "(i)",
+      "B": "(ii)",
+      "C": "(iii)",
+      "D": "(i), (ii) and (iii)",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_048.png"
+  },
+  {
+    "id": 49,
+    "question": "Red Hat and Ubuntu are examples of _____. (i) source code (ii) distributions (iii) applications",
+    "options": {
+      "A": "(i)",
+      "B": "(ii)",
+      "C": "(iii)",
+      "D": "(i), (ii) and (iii)",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_049.png"
+  },
+  {
+    "id": 50,
+    "question": "What does a baseline configuration include? (i) Network state of the system (ii) Configured firewalls",
+    "options": {
+      "A": "(i)",
+      "B": "(ii)",
+      "C": "(i) and (ii)",
+      "D": "Neither (i) nor (ii)"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_050.png"
+  },
+  {
+    "id": 51,
+    "question": "What do the following Apache directives accomplish, collectively?\n\nOrder deny,allow\nDeny from all\nAllow from 192.168.0.0/255.255.255.0\n\n(i) Prevents Web site accessibility from a certain IP address network\n(ii) Limits Web site accessibility to a certain IP address network\n(iii) Allows Web site accessibility to all but give a certain IP address network priority",
+    "options": {
+      "A": "(i)",
+      "B": "(ii)",
+      "C": "(iii)",
+      "D": "(i), (ii) and (iii)",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_051.png"
+  },
+  {
+    "id": 52,
+    "question": "What might a large increase in the size of an authorization log file indicate? (i) More frequently run user-based cron jobs (ii) A large number of external login attempts",
+    "options": {
+      "A": "(i)",
+      "B": "(ii)",
+      "C": "Both (i) and (ii)",
+      "D": "Neither (i) nor (ii)"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_052.png"
+  },
+  {
+    "id": 53,
+    "question": "Which desktop environment is the Konqueror Web browser part of, by default?\n(i) GNOME\n(ii) X Window System\n(iii) KDE",
+    "options": {
+      "A": "(i)",
+      "B": "(ii)",
+      "C": "(iii)",
+      "D": "(i), (ii) and (iii)",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_053.png"
+  },
+  {
+    "id": 54,
+    "question": "Which of the following enables you to check an OCSP (Online Certificate Status Protocol) server for the current status of a digital certificate?\n(i) Apache\n(ii) Samba",
+    "options": {
+      "A": "(i)",
+      "B": "(ii)",
+      "C": "(i) and (ii)",
+      "D": "Neither (i) nor (ii)"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_054.png"
+  },
+  {
+    "id": 55,
+    "question": "Bastion hosts are designed for which network area? (i) Internal network (ii) DMZ (Demilitarized zone) (iii) WAN",
+    "options": {
+      "A": "(i)",
+      "B": "(ii)",
+      "C": "(iii)",
+      "D": "(i), (ii) and (iii)",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_055.png"
+  },
+  {
+    "id": 56,
+    "question": "Choose a true statement.\n(i) A hash function and a checksum are the same thing.\n(ii) A hash function is a procedure or function that converts a large amount of data to a single (long) number.\n(iii) SHA-1 is a checksum whereas SHA-3 is a hash function.",
+    "options": {
+      "A": "(i)",
+      "B": "(ii)",
+      "C": "(iii)",
+      "D": "(i) and (ii)"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_056.png"
+  },
+  {
+    "id": 57,
+    "question": "You are performing computer forensics. You just transferred data from the victim's hard disk to a forensic system. What is the next step you should perform? (i) Wipe the victim's hard disk. (ii) Reboot the forensic system. (iii) Create a checksum file.",
+    "options": {
+      "A": "(i)",
+      "B": "(ii)",
+      "C": "(iii)",
+      "D": "(i), (ii) and (iii)",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_057.png"
+  },
+  {
+    "id": 58,
+    "question": "You want to stop running Samba on an Ubuntu system, but you might use Samba on the same system again in the near future. What is the best choice? (i) Run the apt-get remove samba command. (ii) Run the apt-get purge samba command. (iii) Deactivate the Samba service but leave Samba installed.",
+    "options": {
+      "A": "(i)",
+      "B": "(ii)",
+      "C": "(iii)",
+      "D": "(i) and (ii)",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_058.png"
+  },
+  {
+    "id": 60,
+    "question": "_______ is the software that manages and runs virtual machines.",
+    "options": {
+      "A": "Wine Is Not an Emulator (WINE)",
+      "B": "Pluggable authentication modules (PAMs)",
+      "C": "A hypervisor",
+      "D": "Postfix"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_060.png"
+  },
+  {
+    "id": 61,
+    "question": "_______ is an entry-level security certification offered by (ISC)2.",
+    "options": {
+      "A": "CISSP",
+      "B": "SSCP",
+      "C": "OSPA",
+      "D": "OWSE",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_061.png"
+  },
+  {
+    "id": 62,
+    "question": "______ is the purpose of the following \"iptables\" command:\niptables -I INPUT -m state --state -m tcp -p tcp --dport 22 -j ACCEPT",
+    "options": {
+      "A": "To allow all output from the server to port 22",
+      "B": "To allow all incoming connections to port 22 by inserting at the top of the chain",
+      "C": "To append a rule at the bottom of the chain to allow port 22",
+      "D": "To accept connections to source port 22 for all outgoing connections",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_062.png"
+  },
+  {
+    "id": 63,
+    "question": "is the best choice for network authentication.",
+    "options": {
+      "A": "LDAP",
+      "B": "NIS",
+      "C": "PolicyKit",
+      "D": "openssl",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_063.png"
+  },
+  {
+    "id": 64,
+    "question": "______ is a valid reason to use a Live CD on a suspected compromised system.",
+    "options": {
+      "A": "“The live CD can restore the system back to its original state before the compromise.”",
+      "B": "“The Live CD can trick the black-hat hacker into exploiting the Live CD instead of the production system.”",
+      "C": "“The Live CD can be used for forensic analysis.”",
+      "D": "“This Live CD can temporarily replace the compromised system while a restore is being performed.”",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_064.png"
+  },
+  {
+    "id": 65,
+    "question": "_______ is the primary AppArmor configuration file.",
+    "options": {
+      "A": "aa.conf",
+      "B": "logprof.conf",
+      "C": "appa.conf",
+      "D": "apparmor.conf",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_065.png"
+  },
+  {
+    "id": 66,
+    "question": "_______ is the best description of a functional bug.",
+    "options": {
+      "A": "A flaw in software that prevents part of a program from running properly",
+      "B": "A security threat",
+      "C": "A bug that promotes the functioning of a program",
+      "D": "None of the other choices"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_066.png"
+  },
+  {
+    "id": 67,
+    "question": "_____ is best describing OSSTMM.",
+    "options": {
+      "A": "A methodology to develop open source software",
+      "B": "A methodology used by open source security professionals to measure compliance",
+      "C": "A methodology to automate penetration tests on open source software",
+      "D": "A methodology to ensure that no open source systems can be compromised",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_067.png"
+  },
+  {
+    "id": 68,
+    "question": "______ is the correct method to apply a new kernel built on a Linux system.",
+    "options": {
+      "A": "Upgrade the existing kernel.",
+      "B": "Install it as a new kernel leaving the original kernel in place.",
+      "C": "Remove the original kernel and then install the new kernel.",
+      "D": "Once a Linux system has been deployed with a particular kernel, it is not possible to apply a new kernel.",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_068.png"
+  },
+  {
+    "id": 69,
+    "question": "_______ is a fake shell you can use for nonstandard users to enhance security.",
+    "options": {
+      "A": "bash",
+      "B": "nologin",
+      "C": "sh",
+      "D": "ssh",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_069.png"
+  },
+  {
+    "id": 70,
+    "question": "_______ is the primary mission of the Electronic Frontier Foundation (EFF).",
+    "options": {
+      "A": "Protection of consumer digital rights",
+      "B": "Set security standards",
+      "C": "Provide Linux security certification",
+      "D": "Ensure Linux kernel compatibility with most hardware",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_070.png"
+  },
+  {
+    "id": 71,
+    "question": "_______ is preferable for securing access in the Remote Access Domain.",
+    "options": {
+      "A": "SSH",
+      "B": "Telnet",
+      "C": "FTP",
+      "D": "NFS",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_071.png"
+  },
+  {
+    "id": 72,
+    "question": "______ are the advantages of virtualization in a Linux infrastructure.",
+    "options": {
+      "A": "Cost savings by purchasing less hardware",
+      "B": "Cost savings by using less power",
+      "C": "Security advantages with more bastion hosts",
+      "D": "All of the other choices"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_072.png"
+  },
+  {
+    "id": 73,
+    "question": "______ can be used to ensure the integrity of a downloaded package.",
+    "options": {
+      "A": "GNU Privacy Guard (GPG) keys",
+      "B": "Knoppix",
+      "C": "The apt-get command",
+      "D": "The yum command",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_073.png"
+  },
+  {
+    "id": 74,
+    "question": "A _______ is an entity that issues digital certificates.",
+    "options": {
+      "A": "registrar",
+      "B": "certificate authority",
+      "C": "gateway",
+      "D": "data store",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_074.png"
+  },
+  {
+    "id": 75,
+    "question": "A black-hat hacker can use _______ to decipher hashed passwords.",
+    "options": {
+      "A": "a salt",
+      "B": "the session command",
+      "C": "a rainbow table",
+      "D": "the auth command",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_075.png"
+  },
+  {
+    "id": 76,
+    "question": "A TPM chip is used for _______.",
+    "options": {
+      "A": "password protection",
+      "B": "software license protection",
+      "C": "disk encryption",
+      "D": "All of the other choices"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_076.png"
+  },
+  {
+    "id": 77,
+    "question": "Any Linux system configured with _____ can be set up as a server on a Microsoft network.",
+    "options": {
+      "A": "Samba",
+      "B": "Kerberos",
+      "C": "NFS",
+      "D": "WINS (Windows Internet Name Service)",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_077.png"
+  },
+  {
+    "id": 78,
+    "question": "Command ______ creates a bit-by-bit duplicate of an original disk.",
+    "options": {
+      "A": "dd",
+      "B": "rr",
+      "C": "mount",
+      "D": "async",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_078.png"
+  },
+  {
+    "id": 79,
+    "question": "Canonical is a(n) _______.",
+    "options": {
+      "A": "type of open source license",
+      "B": "private company behind Ubuntu",
+      "C": "auditing program",
+      "D": "security framework",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_079.png"
+  },
+  {
+    "id": 80,
+    "question": "Examples of a ______ are the read, write, and execute permissions of a file.",
+    "options": {
+      "A": "Discretionary access control",
+      "B": "Firewall control",
+      "C": "Mandatory access control",
+      "D": "System kernel control",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_080.png"
+  },
+  {
+    "id": 81,
+    "question": "In Linux, the operating system is referred to as the ______. This is what interfaces with the hardware to manage memory and filesystems and make sure programs run.",
+    "options": {
+      "A": "distribution",
+      "B": "command-line shell",
+      "C": "kernel",
+      "D": "secure shell"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_081.png"
+  },
+  {
+    "id": 82,
+    "question": "Gnome and KDE are _______.",
+    "options": {
+      "A": "graphical desktop environments",
+      "B": "e-mail server packages",
+      "C": "Web browsers",
+      "D": "Web server packages",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_082.png"
+  },
+  {
+    "id": 83,
+    "question": "Kernels released for different architectures vary because different platforms have different _______.",
+    "options": {
+      "A": "networks",
+      "B": "firewalls",
+      "C": "CPUs",
+      "D": "hard drives",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_083.png"
+  },
+  {
+    "id": 84,
+    "question": "Linux implements ______ to determine how a user is to be authenticated and whether there are password policies associated with password databases.",
+    "options": {
+      "A": "binary kernels",
+      "B": "pluggable authentication modules (PAMs)",
+      "C": "hypervisors",
+      "D": "mandatory access controls"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_084.png"
+  },
+  {
+    "id": 85,
+    "question": "Most default Linux installations configure swap space in a separate partition or logical volume. The normal size of that partition or logical volume is ______ the amount of RAM.",
+    "options": {
+      "A": "the same as",
+      "B": "two times",
+      "C": "three times",
+      "D": "four times",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_085.png"
+  },
+  {
+    "id": 86,
+    "question": "The command ______ helps you avoid dependency hell.",
+    "options": {
+      "A": "yum",
+      "B": "rpm",
+      "C": "swat",
+      "D": "killall",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_086.png"
+  },
+  {
+    "id": 87,
+    "question": "The statement ______ best describes the role of mandatory access controls.",
+    "options": {
+      "A": "They protect other services after a security breach in an account.",
+      "B": "They protect a system from access by a malicious user through firewalls.",
+      "C": "They disable clear-text services such as Telnet.",
+      "D": "They provide specific requirements for access to critical services.",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_087.png"
+  },
+  {
+    "id": 88,
+    "question": "The item _______ is NOT a potential security issue with respect to the Linux GUI.",
+    "options": {
+      "A": "The Linux GUI is a client-server system.",
+      "B": "Linux GUI applications can be networked.",
+      "C": "Linux GUI applications can be accessed over an SSH connection.",
+      "D": "Users can log into the Linux GUI remotely.",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_088.png"
+  },
+  {
+    "id": 89,
+    "question": "The theory of configuring a bastion host is one in which the server has __________.",
+    "options": {
+      "A": "a specific function and minimal services installed to provide its designated services",
+      "B": "a firewall configured to allow access to local users only",
+      "C": "many services running so as to make the most use of the hardware",
+      "D": "a WAN connection that runs all organizations' public services on the same server",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_089.png"
+  },
+  {
+    "id": 90,
+    "question": "The _______ part of a kernel contains drivers and features essential to the kernel boot process.",
+    "options": {
+      "A": "monolithic",
+      "B": "modular",
+      "C": "patch",
+      "D": "closed"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_090.png"
+  },
+  {
+    "id": 91,
+    "question": "The directory ______ should not be made read-only.",
+    "options": {
+      "A": "/home",
+      "B": "/var",
+      "C": "/tmp",
+      "D": "All of the other choices"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_091.png"
+  },
+  {
+    "id": 92,
+    "question": "The WINE application can be served as an example of a process running in ______.",
+    "options": {
+      "A": "network service mode",
+      "B": "user space",
+      "C": "hidden mode",
+      "D": "kernel space",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_092.png"
+  },
+  {
+    "id": 93,
+    "question": "The authentication tool _______ works locally.",
+    "options": {
+      "A": "NIS",
+      "B": "PAM",
+      "C": "LDAP",
+      "D": "Winbind",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_093.png"
+  },
+  {
+    "id": 94,
+    "question": "The /usr/ directory contains programs that are generally accessible to all users. This directory can be secured by mounting it _______.",
+    "options": {
+      "A": "as read-write",
+      "B": "as read-only",
+      "C": "as SWAP type",
+      "D": "remotely",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_094.png"
+  },
+  {
+    "id": 95,
+    "question": "The entry ______ in the standard /etc/sudoers file gives the root administrative user full privileges through sudo.",
+    "options": {
+      "A": "admin ALL=(ALL) ALL",
+      "B": "%admin ALL=(ALL) ALL",
+      "C": "root ALL=(ALL) ALL",
+      "D": "sys ALL=(ALL) ALL",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_095.png"
+  },
+  {
+    "id": 96,
+    "question": "The _____ control flag used in PAM approves user access assuming that there are no previous failures.",
+    "options": {
+      "A": "required",
+      "B": "requisite",
+      "C": "sufficient",
+      "D": "allow",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_096.png"
+  },
+  {
+    "id": 97,
+    "question": "The security test tool SAINT began as the open source version of _____.",
+    "options": {
+      "A": "SATAN",
+      "B": "Nessus®",
+      "C": "Nmap",
+      "D": "Netcat",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_097.png"
+  },
+  {
+    "id": 98,
+    "question": "Regarding SELinux, the file _____ includes lists of critical files and services to be watched for changes.",
+    "options": {
+      "A": "second.conf",
+      "B": "seservice.conf",
+      "C": "sestatus.conf",
+      "D": "secrit.conf",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_098.png"
+  },
+  {
+    "id": 99,
+    "question": "The CUPS service associated with ______.",
+    "options": {
+      "A": "file transfers",
+      "B": "e-mail",
+      "C": "remote access",
+      "D": "printing",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_099.png"
+  },
+  {
+    "id": 100,
+    "question": "Pre-boot eXecution Environment (PXE) is associated with ______.",
+    "options": {
+      "A": "kernel development",
+      "B": "Linux installation over a network",
+      "C": "security services",
+      "D": "drive mounting",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_100.png"
+  },
+  {
+    "id": 101,
+    "question": "Packages associated with SSH include a client for the protocol _____.",
+    "options": {
+      "A": "Samba",
+      "B": "FTP",
+      "C": "Telnet",
+      "D": "SMTP",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "E",
+    "note_raw": "E\nĐáp án đúng phải là SSH, SFTP, hoặc SCP.",
+    "image_path": "osp201_screenshots/slide_101.png"
+  },
+  {
+    "id": 102,
+    "question": "Postfix and Exim are types of ______.",
+    "options": {
+      "A": "graphical desktop environments",
+      "B": "FTP server packages",
+      "C": "SMTP server packages",
+      "D": "Web server packages",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_102.png"
+  },
+  {
+    "id": 103,
+    "question": "Using Linux as a desktop typically involves the added security risk of ______.",
+    "options": {
+      "A": "all users on the network having access to each other's files",
+      "B": "not being able to use SSH",
+      "C": "not having access to security updates",
+      "D": "running GUI applications",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_103.png"
+  },
+  {
+    "id": 104,
+    "question": "You should set Linux to deactivate most services in runlevels _____.",
+    "options": {
+      "A": "0, 1, and 2",
+      "B": "4, 5, and 6",
+      "C": "0, 1, and 6",
+      "D": "2, 3, and 4",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_104.png"
+  },
+  {
+    "id": 105,
+    "question": "You may create multiple gold baseline configurations to reflect separation in different ______.",
+    "options": {
+      "A": "access controls",
+      "B": "filesystems",
+      "C": "databases",
+      "D": "None of the other choices"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_105.png"
+  },
+  {
+    "id": 106,
+    "question": "Under normal circumstances, the item _______ happens when a system can't be booted with a newly installed Linux kernel.",
+    "options": {
+      "A": "You need to install the old kernel.",
+      "B": "The system can't be booted. You need to reinstall that Linux distribution.",
+      "C": "The system can't be booted. You need to recover the old Linux kernel with the help of a recovery or rescue mode for that distribution.",
+      "D": "The old kernel is still available through the boot loader.",
+      "E": "None of the other choices."
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_106.png"
+  },
+  {
+    "id": 109,
+    "question": "is NOT a standard open source option for SMTP e-mail services.",
+    "options": {
+      "A": "sendmail",
+      "B": "Postfix",
+      "C": "Dovecot",
+      "D": "Exim",
+      "E": "None of the other choices."
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_109.png"
+  },
+  {
+    "id": 110,
+    "question": "What is NOT a part of kernel configuration options?",
+    "options": {
+      "A": "64-Bit Kernel support",
+      "B": "Gaming performance optimization",
+      "C": "Processor Type and Features",
+      "D": "General Setup"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_110.png"
+  },
+  {
+    "id": 111,
+    "question": "Which of the following is NOT a basic Linux kernel security option?",
+    "options": {
+      "A": "CONFIG_FIREWALL",
+      "B": "CONFIG_IP_MASQUERADE",
+      "C": "IP_FORWARDING",
+      "D": "CONFIG_GUI_SECURITY"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_111.png"
+  },
+  {
+    "id": 112,
+    "question": "Which of the following fields is NOT part of a typical entry in the /etc/shadow file?",
+    "options": {
+      "A": "Encrypted password",
+      "B": "Last password change date",
+      "C": "Home directory path",
+      "D": "Account expiration date"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_112.png"
+  },
+  {
+    "id": 113,
+    "question": "Which of the following is NOT a zone provided by firewalld?",
+    "options": {
+      "A": "dmz",
+      "B": "external",
+      "C": "internal",
+      "D": "isolated"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_113.png"
+  },
+  {
+    "id": 114,
+    "question": "Which of the following is NOT a zone provided by firewalld?",
+    "options": {
+      "A": "dmz",
+      "B": "external",
+      "C": "internal",
+      "D": "isolated"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_114.png"
+  },
+  {
+    "id": 115,
+    "question": "Which tool is NOT used in the kernel customization process?",
+    "options": {
+      "A": "make config",
+      "B": "make menuconfig",
+      "C": "make clearmenu",
+      "D": "make clean"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_115.png"
+  },
+  {
+    "id": 116,
+    "question": "The item _______ is NOT true about a live CD distribution (Assume your system can boot from appropriate locations).",
+    "options": {
+      "A": "It can be booted from a DVD drive.",
+      "B": "It can be booted from a USB port.",
+      "C": "It automatically installs that Linux distribution on your system.",
+      "D": "It provides administrative control of your system without a password.",
+      "E": "None of the other choices."
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_116.png"
+  },
+  {
+    "id": 117,
+    "question": "Which domain is NOT one of the seven domains of a typical IT infrastructure?",
+    "options": {
+      "A": "User Domain",
+      "B": "Global Domain",
+      "C": "Workstation Domain",
+      "D": "System Domain"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_117.png"
+  },
+  {
+    "id": 119,
+    "question": "What value should be written to /proc/sys/net/ipv4/ip_forward to enable IPv4 forwarding?",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "255"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_119.png"
+  },
+  {
+    "id": 120,
+    "question": "What percentage of Internet Web servers use Linux as their operating system?",
+    "options": {
+      "A": "15 percent",
+      "B": "25 percent",
+      "C": "50 percent",
+      "D": "67 percent"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_120.png"
+  },
+  {
+    "id": 121,
+    "question": "What percentage of Internet Web servers use Linux as their operating system? (choose the best answer)",
+    "options": {
+      "A": "15%",
+      "B": "25%",
+      "C": "50%",
+      "D": "67%"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_121.png"
+  },
+  {
+    "id": 122,
+    "question": "Which port does MySQL use by default?",
+    "options": {
+      "A": "23",
+      "B": "80",
+      "C": "443",
+      "D": "3306",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_122.png"
+  },
+  {
+    "id": 123,
+    "question": "Which of the following directives specifies that SSH listens on a network card with a network address of 192.168.0.0?",
+    "options": {
+      "A": "ListenAddress 192.168.0.1",
+      "B": "ListenAddress 192.168.0.0/24",
+      "C": "ListenAddress 192.168.0/255",
+      "D": "ListenAddress 192.168.0.255"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_123.png"
+  },
+  {
+    "id": 124,
+    "question": "When configuring a quota for a user, giving them 450 blocks in the filesystem equals how many bytes?",
+    "options": {
+      "A": "450",
+      "B": "57,600",
+      "C": "115,200",
+      "D": "460,800"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_124.png"
+  },
+  {
+    "id": 125,
+    "question": "How many major user authentication databases are available in Linux system?",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5",
+      "E": "Other answer"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_125.png"
+  },
+  {
+    "id": 126,
+    "question": "How many options for boot loaders are there in Linux system?",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_126.png"
+  },
+  {
+    "id": 127,
+    "question": "How many major user authentication databases available are there in Linux system?",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5",
+      "E": "Other answer"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_127.png"
+  },
+  {
+    "id": 128,
+    "question": "In what year was Linux first released?",
+    "options": {
+      "A": "1984",
+      "B": "1987",
+      "C": "1991",
+      "D": "1995"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_128.png"
+  },
+  {
+    "id": 129,
+    "question": "In the context of Systemd, which PID is assigned to the first process after boot?",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "100",
+      "D": "500"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_129.png"
+  },
+  {
+    "id": 130,
+    "question": "The well-known TCP/IP port numbers range from 0 to ______.",
+    "options": {
+      "A": "10",
+      "B": "500",
+      "C": "1023",
+      "D": "4096",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_130.png"
+  },
+  {
+    "id": 131,
+    "question": "The Linux operating system is part of a very long and complicated family tree that began in the _____.",
+    "options": {
+      "A": "1940s",
+      "B": "1950s",
+      "C": "1960s",
+      "D": "1970s"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_131.png"
+  },
+  {
+    "id": 132,
+    "question": "Well-known TCP/IP ports range from _____ to _____.",
+    "options": {
+      "A": "0 – 1023",
+      "B": "1 – 1023",
+      "C": "1 – 1024",
+      "D": "0 – 1024"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_132.png"
+  },
+  {
+    "id": 135,
+    "question": "Which files are integral to the shadow password suite and user authentication databases in Linux? (Choose three)",
+    "options": {
+      "A": "/etc/passwd",
+      "B": "/etc/shadow",
+      "C": "/etc/group",
+      "D": "/etc/network/interfaces",
+      "E": "/etc/gshadow"
+    },
+    "correct_answer": "ABE",
+    "note_raw": "ABE",
+    "image_path": "osp201_screenshots/slide_135.png"
+  },
+  {
+    "id": 137,
+    "question": "What are key considerations when deciding between automated updates or manually analyzing alerts for security management? (Choose two)",
+    "options": {
+      "A": "The reliability and track record of your Linux distribution's updates",
+      "B": "The aesthetic preferences of the system administrator",
+      "C": "The cost of internet bandwidth for downloading updates",
+      "D": "Trust in the developers of third-party applications used on your systems",
+      "E": "The phase of the moon at the time of the update"
+    },
+    "correct_answer": "AD",
+    "note_raw": "AD",
+    "image_path": "osp201_screenshots/slide_137.png"
+  },
+  {
+    "id": 138,
+    "question": "What purposes do Linux distributions serve in the enterprise? (Choose two)",
+    "options": {
+      "A": "Desktop applications",
+      "B": "Server infrastructure",
+      "C": "Security appliances",
+      "D": "Web development",
+      "E": "Network management"
+    },
+    "correct_answer": "BC",
+    "note_raw": "BC",
+    "image_path": "osp201_screenshots/slide_138.png"
+  },
+  {
+    "id": 139,
+    "question": "Which of the following types of malware is not found on Linux? (Choose 2 correct answers)",
+    "options": {
+      "A": "Rootkits",
+      "B": "Microsoft viruses",
+      "C": "Trojan horses",
+      "D": "Spyware",
+      "E": "Middleware"
+    },
+    "correct_answer": "BE",
+    "note_raw": "BE",
+    "image_path": "osp201_screenshots/slide_139.png"
+  },
+  {
+    "id": 140,
+    "question": "Which directories may contain configuration files for IPSec connections? (Select two)",
+    "options": {
+      "A": "/etc/sysconfig/network-scripts/",
+      "B": "/etc/ipsec/",
+      "C": "/etc/network/",
+      "D": "/etc/racoon/",
+      "E": "/etc/network-scripts/"
+    },
+    "correct_answer": "BD",
+    "note_raw": "BD",
+    "image_path": "osp201_screenshots/slide_140.png"
+  },
+  {
+    "id": 141,
+    "question": "Which command to view a list of all currently installed packages on the Linux computer? (Choose 2 correct answers)",
+    "options": {
+      "A": "rpm -qa",
+      "B": "yum list installed",
+      "C": "rpm list packages",
+      "D": "rpm list installed",
+      "E": "yum list -qa"
+    },
+    "correct_answer": "AB",
+    "note_raw": "AB",
+    "image_path": "osp201_screenshots/slide_141.png"
+  },
+  {
+    "id": 142,
+    "question": "Which two practices are crucial when configuring security for virtual machines? (Choose two)",
+    "options": {
+      "A": "Assigning maximum system resources to all virtual machines",
+      "B": "Regularly updating both the host and guest operating systems",
+      "C": "Disabling network access to virtual machines",
+      "D": "Configuring isolated virtual networks for testing environments",
+      "E": "Allowing unrestricted access to virtual machine consoles"
+    },
+    "correct_answer": "BD",
+    "note_raw": "BD",
+    "image_path": "osp201_screenshots/slide_142.png"
+  },
+  {
+    "id": 143,
+    "question": "Which Linux tools are used for firewall management and intrusion detection? (Choose two)",
+    "options": {
+      "A": "iptables",
+      "B": "Tripwire",
+      "C": "systemd",
+      "D": "Snort",
+      "E": "GCC"
+    },
+    "correct_answer": "AD",
+    "note_raw": "AD",
+    "image_path": "osp201_screenshots/slide_143.png"
+  },
+  {
+    "id": 144,
+    "question": "Which features are essential for a Linux boot loader when considering security? (Choose two)",
+    "options": {
+      "A": "Support for network booting",
+      "B": "Password protection capability",
+      "C": "Multiple operating system boot support",
+      "D": "Secure Boot compatibility",
+      "E": "Automated repair functions"
+    },
+    "correct_answer": "BD",
+    "note_raw": "BD",
+    "image_path": "osp201_screenshots/slide_144.png"
+  },
+  {
+    "id": 145,
+    "question": "When mitigating kernel security risks, which of the following approaches are recommended? (Choose two)",
+    "options": {
+      "A": "Disabling unused kernel features and modules to reduce potential vulnerabilities",
+      "B": "Keeping default settings for all kernel parameters for stability",
+      "C": "Applying the principle of least privilege to kernel module permissions",
+      "D": "Using only older kernel versions for their proven stability",
+      "E": "Avoiding updates to avoid potential new vulnerabilities"
+    },
+    "correct_answer": "AC",
+    "note_raw": "AC",
+    "image_path": "osp201_screenshots/slide_145.png"
+  },
+  {
+    "id": 146,
+    "question": "In the context of Linux patch management, which actions ensure a secure and up-to-date system? (Choose two)",
+    "options": {
+      "A": "Applying security patches as soon as they are released",
+      "B": "Only updating the Linux kernel and ignoring all other software",
+      "C": "Testing patches in a staging environment before deployment",
+      "D": "Using only LTS (Long Term Support) versions without additional updates",
+      "E": "Waiting for a new distribution release to update software"
+    },
+    "correct_answer": "AC",
+    "note_raw": "AC",
+    "image_path": "osp201_screenshots/slide_146.png"
+  },
+  {
+    "id": 147,
+    "question": "In a system with the option to boot, what file should contain different stanzas to two different kernels available during the boot process? (Select two)",
+    "options": {
+      "A": "/boot/grub/menu.lst",
+      "B": "/etc/bootloader",
+      "C": "/etc/lilo.conf",
+      "D": "/usr/src/linux-uname -r/.config",
+      "E": "/etc/boot.conf"
+    },
+    "correct_answer": "AC",
+    "note_raw": "AC",
+    "image_path": "osp201_screenshots/slide_147.png"
+  },
+  {
+    "id": 148,
+    "question": "In a system with the option to boot, what file should contain different stanzas to two different kernels available during the boot process? (Select two)",
+    "options": {
+      "A": "/boot/grub/menu.lst",
+      "B": "/etc/bootloader",
+      "C": "/etc/lilo.conf",
+      "D": "/usr/src/linux-uname -r/.config",
+      "E": "/etc/boot.conf"
+    },
+    "correct_answer": "AC",
+    "note_raw": "AC",
+    "image_path": "osp201_screenshots/slide_148.png"
+  },
+  {
+    "id": 149,
+    "question": "Regarding the consolidation and security of remote logs, which strategies ensure the integrity and confidentiality of log data? (Choose two)",
+    "options": {
+      "A": "Storing all logs in a publicly accessible network location",
+      "B": "Encrypting log transmissions across the network",
+      "C": "Using centralized log management solutions for better analysis and storage",
+      "D": "Disabling logging for non-critical applications",
+      "E": "Manual log reviews at irregular intervals"
+    },
+    "correct_answer": "BC",
+    "note_raw": "BC",
+    "image_path": "osp201_screenshots/slide_149.png"
+  },
+  {
+    "id": 150,
+    "question": "You are working with virtualization software on a Linux hardware host. You want to put several virtual applications in a container package that is native to Linux. What do you use? (Check all that apply)",
+    "options": {
+      "A": "Docker",
+      "B": "LXC",
+      "C": "A GNU General Public License (GPL)",
+      "D": "Transport Layer Security (TLS)"
+    },
+    "correct_answer": "AB",
+    "note_raw": "AB",
+    "image_path": "osp201_screenshots/slide_150.png"
+  },
+  {
+    "id": 151,
+    "question": "Which is the concept for the mode or state in which a Linux system operates, such as single-user mode, multi-user mode, or graphical mode?",
+    "options": {
+      "A": "Runlevel",
+      "B": "Initrd",
+      "C": "Systemd",
+      "D": "Inittab"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_151.png"
+  },
+  {
+    "id": 152,
+    "question": "Which is the Website associated with the Linux Kernel Organization?",
+    "options": {
+      "A": "https://distrowatch.org",
+      "B": "https://distrowatch.com",
+      "C": "https://kernel.org",
+      "D": "https://kernel.com"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_152.png"
+  },
+  {
+    "id": 155,
+    "question": "What is the name of the emerging firewall that is expected to replace iptables?",
+    "options": {
+      "A": "nttables",
+      "B": "nftables",
+      "C": "Linux Firewall",
+      "D": "Hot Armor",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_155.png"
+  },
+  {
+    "id": 156,
+    "question": "What is the default mandatory access control system used for Red Hat distributions?",
+    "options": {
+      "A": "AppArmor",
+      "B": "SELinux",
+      "C": "Logwatch",
+      "D": "GRUB",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_156.png"
+  },
+  {
+    "id": 157,
+    "question": "What is the general command syntax for login into a remote system with SSH?",
+    "options": {
+      "A": "ssh user@hostname",
+      "B": "scp user@hostname",
+      "C": "sftp user@hostname",
+      "D": "ssh login user password",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_157.png"
+  },
+  {
+    "id": 158,
+    "question": "What is a VoIP solution that uses SIP (Session Initiation Protocol) and the RTP (Real-time Transport Protocol)?",
+    "options": {
+      "A": "Apache",
+      "B": "Asterisk",
+      "C": "Squid",
+      "D": "BIND (Berkeley Internet Name Domain)",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_158.png"
+  },
+  {
+    "id": 159,
+    "question": "What command allows a regular user to temporarily execute commands with superuser privileges in Linux?",
+    "options": {
+      "A": "su",
+      "B": "sudo",
+      "C": "sg",
+      "D": "chmod"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_159.png"
+  },
+  {
+    "id": 160,
+    "question": "What switch in the iptables command allows addition of a rule to the middle of a chain?",
+    "options": {
+      "A": "-A",
+      "B": "-I",
+      "C": "-L",
+      "D": "-C"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_160.png"
+  },
+  {
+    "id": 161,
+    "question": "What tool is used for sniffing/spoofing attacks?",
+    "options": {
+      "A": "Ettercap",
+      "B": "Snort",
+      "C": "Netcat",
+      "D": "John the Ripper"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_161.png"
+  },
+  {
+    "id": 162,
+    "question": "What command is used to review current ACLs?",
+    "options": {
+      "A": "setfacl",
+      "B": "getfacl",
+      "C": "chown",
+      "D": "chmod"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_162.png"
+  },
+  {
+    "id": 163,
+    "question": "What is one of the first host-based intrusion-detection systems deployed under Linux? It is now a commercial product that monitors operating system files.",
+    "options": {
+      "A": "Bastion host",
+      "B": "Snort",
+      "C": "Syslog",
+      "D": "Tripwire"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_163.png"
+  },
+  {
+    "id": 164,
+    "question": "Which of the following is an open source license?",
+    "options": {
+      "A": "Freeware",
+      "B": "Public domain",
+      "C": "GNU GPL",
+      "D": "Any Microsoft license"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_164.png"
+  },
+  {
+    "id": 165,
+    "question": "Which of the following is a protocol that supports remote logins to a GUI system?",
+    "options": {
+      "A": "Telnet",
+      "B": "SysV",
+      "C": "SSH",
+      "D": "RPM",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_165.png"
+  },
+  {
+    "id": 166,
+    "question": "Which of the following is a distribution based on Debian?",
+    "options": {
+      "A": "CentOS",
+      "B": "Mint",
+      "C": "RHEL",
+      "D": "Rocky"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_166.png"
+  },
+  {
+    "id": 167,
+    "question": "Which of the following is self-replicating malware that differs from a virus in that it does not require direct user involvement to spread?",
+    "options": {
+      "A": "Trojan horse",
+      "B": "Rootkit",
+      "C": "Worm",
+      "D": "Spyware",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_167.png"
+  },
+  {
+    "id": 168,
+    "question": "Which of the following special permissions is associated with a shared directory? That directory is not accessible to others who are not members of the group owner of that directory.",
+    "options": {
+      "A": "SUID",
+      "B": "SGID",
+      "C": "Sticky bit",
+      "D": "Executable bit"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_168.png"
+  },
+  {
+    "id": 169,
+    "question": "Which command formats all Linux filesystems, Microsoft VFAT, and NTFS filesystems?",
+    "options": {
+      "A": "format",
+      "B": "fdisk",
+      "C": "mkfs",
+      "D": "mount",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_169.png"
+  },
+  {
+    "id": 170,
+    "question": "Which command changes file ownership in Linux?",
+    "options": {
+      "A": "chmod",
+      "B": "chfile",
+      "C": "chgrp",
+      "D": "chown",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_170.png"
+  },
+  {
+    "id": 171,
+    "question": "Which kernel option is not related to mandatory access controls?",
+    "options": {
+      "A": "SELinux",
+      "B": "TOMOYO",
+      "C": "Cryptographic API",
+      "D": "AppArmor"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_171.png"
+  },
+  {
+    "id": 172,
+    "question": "Which UNIX-based service is important for centralized log management in Linux?",
+    "options": {
+      "A": "Snort",
+      "B": "syslog",
+      "C": "AIDE",
+      "D": "iptables"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_172.png"
+  },
+  {
+    "id": 173,
+    "question": "Which switch do you use to apply administrative privileges for one instance of the su command?",
+    "options": {
+      "A": "-a",
+      "B": "-c",
+      "C": "-f",
+      "D": "-h",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_173.png"
+  },
+  {
+    "id": 174,
+    "question": "Which software, when available, should allow you to configure Linux as a domain controller on a Microsoft Active Directory network?",
+    "options": {
+      "A": "Enhanced Squid",
+      "B": "Apache 4.0",
+      "C": "Samba 4.0",
+      "D": "NFS 4.0",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_174.png"
+  },
+  {
+    "id": 175,
+    "question": "Which iptables command temporarily disables the current firewall?",
+    "options": {
+      "A": "iptables -F",
+      "B": "iptables -D",
+      "C": "iptables -R",
+      "D": "iptables -A",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_175.png"
+  },
+  {
+    "id": 176,
+    "question": "Which wireless security algorithm should no longer be used because of weak security?",
+    "options": {
+      "A": "WEP",
+      "B": "WPA",
+      "C": "WPA2",
+      "D": "WIDS",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_176.png"
+  },
+  {
+    "id": 177,
+    "question": "A set of services that get started is determined by which of the following?",
+    "options": {
+      "A": "Runlevel",
+      "B": "Init",
+      "C": "Process control",
+      "D": "Init.d"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_177.png"
+  },
+  {
+    "id": 178,
+    "question": "Among the listed options, which PAM module plays the least role in user login information processing?",
+    "options": {
+      "A": "auth",
+      "B": "account",
+      "C": "password",
+      "D": "session"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_178.png"
+  },
+  {
+    "id": 179,
+    "question": "For securing email transactions, which protocol is NOT used?",
+    "options": {
+      "A": "SMTPS",
+      "B": "POP3S",
+      "C": "IMAPS",
+      "D": "FTPS"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_179.png"
+  },
+  {
+    "id": 180,
+    "question": "Which of the following is not a part of the mail transfer process?",
+    "options": {
+      "A": "MUA",
+      "B": "MRA",
+      "C": "MTA",
+      "D": "VNC"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_180.png"
+  },
+  {
+    "id": 182,
+    "question": "What is a primary purpose of running integrity checks of installed files and executables?",
+    "options": {
+      "A": "To optimize system performance",
+      "B": "To detect unauthorized changes",
+      "C": "To clean up disk space",
+      "D": "To update software"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_182.png"
+  },
+  {
+    "id": 183,
+    "question": "What is an advantage of journaling filesystems?",
+    "options": {
+      "A": "Increased encryption strength",
+      "B": "Speedier recovery in case of problems",
+      "C": "Reduced need for user permissions",
+      "D": "Automatic user authentication"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_183.png"
+  },
+  {
+    "id": 184,
+    "question": "What is the role of ACLs in Linux?",
+    "options": {
+      "A": "To format filesystems",
+      "B": "To provide detailed access controls",
+      "C": "To encrypt file contents",
+      "D": "To manage network configurations"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_184.png"
+  },
+  {
+    "id": 185,
+    "question": "What is a primary goal of kernel customization?",
+    "options": {
+      "A": "To slow down system processes",
+      "B": "To enhance graphical performance",
+      "C": "To improve system security",
+      "D": "To reduce kernel size"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_185.png"
+  },
+  {
+    "id": 186,
+    "question": "What is the \"iptables\" command used to configure?",
+    "options": {
+      "A": "A mandatory access control",
+      "B": "User account information",
+      "C": "A firewall",
+      "D": "TCP Wrappers",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_186.png"
+  },
+  {
+    "id": 187,
+    "question": "What is CSS (Content Scramble System) associated with?",
+    "options": {
+      "A": "Web page design",
+      "B": "Web page security",
+      "C": "Content filtering",
+      "D": "Digital rights management",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_187.png"
+  },
+  {
+    "id": 188,
+    "question": "What is Snort?",
+    "options": {
+      "A": "A firewall",
+      "B": "A gateway",
+      "C": "A bastion host",
+      "D": "An intrusion-detection service"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_188.png"
+  },
+  {
+    "id": 189,
+    "question": "What is the function of the /home directory?",
+    "options": {
+      "A": "Store system logs",
+      "B": "Contain kernel files",
+      "C": "Store user files and directories",
+      "D": "Store removable media"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_189.png"
+  },
+  {
+    "id": 190,
+    "question": "What is the main purpose of inetd and xinetd services in Linux?",
+    "options": {
+      "A": "Managing system resources",
+      "B": "Configuring firewall rules",
+      "C": "Launching network services on demand",
+      "D": "Handling user authentication"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_190.png"
+  },
+  {
+    "id": 191,
+    "question": "What is the primary function of the Snort tool?",
+    "options": {
+      "A": "Password cracking",
+      "B": "Network intrusion detection",
+      "C": "Web vulnerability scanning",
+      "D": "Network port scanning"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_191.png"
+  },
+  {
+    "id": 192,
+    "question": "What is the full form of APT in the context of Linux package management?",
+    "options": {
+      "A": "Advanced Packaging Tool",
+      "B": "Automatic Packaging Tool",
+      "C": "Advanced Program Tool",
+      "D": "Automatic Program Tool"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_192.png"
+  },
+  {
+    "id": 193,
+    "question": "What is the core of the Linux operating system?",
+    "options": {
+      "A": "The bootloader",
+      "B": "The Linux kernel",
+      "C": "The GUI system",
+      "D": "System services"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_193.png"
+  },
+  {
+    "id": 194,
+    "question": "What is the primary purpose of hardening an operating system?",
+    "options": {
+      "A": "Creating a bastion host",
+      "B": "Building a Web server",
+      "C": "Protecting against attack",
+      "D": "Building a kernel"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_194.png"
+  },
+  {
+    "id": 195,
+    "question": "What is a critical step after installing a new custom kernel?",
+    "options": {
+      "A": "Deleting the old kernel",
+      "B": "Checking the boot loader",
+      "C": "Ignoring boot loader updates",
+      "D": "Removing initial RAM disks"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_195.png"
+  },
+  {
+    "id": 196,
+    "question": "What is the open source package trousers associated most closely with?",
+    "options": {
+      "A": "Protocol analysis",
+      "B": "Biometric controls",
+      "C": "Firewalls",
+      "D": "Trusted Platform Module (TPM)",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_196.png"
+  },
+  {
+    "id": 197,
+    "question": "What is GRUB stands for?",
+    "options": {
+      "A": "Group Unified Bootloader",
+      "B": "Grand Unified Bootloader",
+      "C": "Grand Uniform Bootloader",
+      "D": "Grand Unified Booter"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_197.png"
+  },
+  {
+    "id": 198,
+    "question": "What is a commonly used bug tracking system derived from Mozilla's system and now used by Red Hat and many others?",
+    "options": {
+      "A": "Launchpad",
+      "B": "Snagzilla",
+      "C": "Mozybug",
+      "D": "Bugzilla",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_198.png"
+  },
+  {
+    "id": 199,
+    "question": "What is Anaconda?",
+    "options": {
+      "A": "A Linux desktop",
+      "B": "A Linux installation program",
+      "C": "A Web browser",
+      "D": "An e-mail client",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_199.png"
+  },
+  {
+    "id": 200,
+    "question": "What is Squid?",
+    "options": {
+      "A": "Key authentication system",
+      "B": "Proxy server",
+      "C": "Database software",
+      "D": "Web server software",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_200.png"
+  },
+  {
+    "id": 201,
+    "question": "What is SpamAssassin?",
+    "options": {
+      "A": "An antivirus software package",
+      "B": "E-mail server software",
+      "C": "An e-mail filter",
+      "D": "An alternative to Squid",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_201.png"
+  },
+  {
+    "id": 202,
+    "question": "What is SpamAssassin used for?",
+    "options": {
+      "A": "Web browsing",
+      "B": "Office work",
+      "C": "Detecting and managing spam",
+      "D": "Antivirus scanning"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_202.png"
+  },
+  {
+    "id": 203,
+    "question": "SELinux was initially developed as a set of extensions by which of the following?",
+    "options": {
+      "A": "The NSA",
+      "B": "The CIA",
+      "C": "The Electronic Freedom Foundation",
+      "D": "The GNU Foundation"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_203.png"
+  },
+  {
+    "id": 204,
+    "question": "What does \"Firewalld\" provide in terms of network security?",
+    "options": {
+      "A": "Malware scanning",
+      "B": "Email filtering",
+      "C": "Zone-based firewall management",
+      "D": "Intrusion detection system"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_204.png"
+  },
+  {
+    "id": 205,
+    "question": "What does Kerberos require?",
+    "options": {
+      "A": "Network Time Protocol (NTP)",
+      "B": "Secure Shell (SSH)",
+      "C": "Samba",
+      "D": "IPSec",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_205.png"
+  },
+  {
+    "id": 206,
+    "question": "What does the acronym C-I-A stand for?",
+    "options": {
+      "A": "Correctness, Intrusion, and Authority",
+      "B": "Confidentiality, Intrusion, and Access",
+      "C": "Confidentiality, Integrity, and Availability",
+      "D": "Correctness, Integrity, and Authenticity"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_206.png"
+  },
+  {
+    "id": 207,
+    "question": "What does SELinux stand for?",
+    "options": {
+      "A": "Secure Enhanced Linux",
+      "B": "Simple Encrypted Linux",
+      "C": "Security Enhanced Linux",
+      "D": "Server Encapsulation Linux"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_207.png"
+  },
+  {
+    "id": 208,
+    "question": "What does monitoring local logs allow an administrator to do?",
+    "options": {
+      "A": "Directly modify system settings",
+      "B": "Identify and diagnose system issues",
+      "C": "Increase the storage space automatically",
+      "D": "Decrease system boot time"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_208.png"
+  },
+  {
+    "id": 209,
+    "question": "What best practice is recommended for security operations management?",
+    "options": {
+      "A": "Ignoring security alerts",
+      "B": "Regularly updating systems and applications",
+      "C": "Using a single antivirus solution",
+      "D": "Manual patch management"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_209.png"
+  },
+  {
+    "id": 210,
+    "question": "What can an unauthorized user or attacker use to decipher hashed passwords?",
+    "options": {
+      "A": "A salt",
+      "B": "The session command",
+      "C": "A rainbow table",
+      "D": "The auth command"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_210.png"
+  },
+  {
+    "id": 211,
+    "question": "What kind of control do AppArmor and SELinux implement?",
+    "options": {
+      "A": "Lattice-based access controls",
+      "B": "Mandatory access controls",
+      "C": "Password protection",
+      "D": "File sharing",
+      "E": "File access controls"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_211.png"
+  },
+  {
+    "id": 212,
+    "question": "What system function does Systemctl perform?",
+    "options": {
+      "A": "Install packages",
+      "B": "Manage services",
+      "C": "Manage passwords",
+      "D": "Configure the Web server"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_212.png"
+  },
+  {
+    "id": 213,
+    "question": "What should be your first step when a security breach is detected?",
+    "options": {
+      "A": "Shut down the system immediately",
+      "B": "Notify the press",
+      "C": "Create a backup",
+      "D": "Analyze and collect information"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_213.png"
+  },
+  {
+    "id": 214,
+    "question": "What tool is essential for monitoring a system's performance and security baseline?",
+    "options": {
+      "A": "Network monitors",
+      "B": "Log files",
+      "C": "User management tools",
+      "D": "File sharing services"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_214.png"
+  },
+  {
+    "id": 215,
+    "question": "Which of the following options is not used to block access from certain IP addresses?",
+    "options": {
+      "A": "iptables",
+      "B": "SELinux",
+      "C": "TCP Wrappers",
+      "D": "Extended internet super server"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_215.png"
+  },
+  {
+    "id": 216,
+    "question": "Which of the following is the piece of software used to manage virtual machines?",
+    "options": {
+      "A": "Super server",
+      "B": "Hypervisor",
+      "C": "Central processor",
+      "D": "Inetserv"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_216.png"
+  },
+  {
+    "id": 217,
+    "question": "Which of the following components makes up the core of the Linux operating system?",
+    "options": {
+      "A": "Cloned software from Unix",
+      "B": "The kernel",
+      "C": "Linux libraries",
+      "D": "Linux services",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_217.png"
+  },
+  {
+    "id": 218,
+    "question": "Which of the following applies administrative privileges to another command without logging in as root?",
+    "options": {
+      "A": "su -a",
+      "B": "su -c",
+      "C": "su -f",
+      "D": "su -h"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_218.png"
+  },
+  {
+    "id": 219,
+    "question": "Which of the following commands would you use to check the status of a service in a systemd-based system?",
+    "options": {
+      "A": "systemctl status <service>",
+      "B": "ps aux | grep <service>",
+      "C": "service --status <service>",
+      "D": "chkconfig --list <service>"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_219.png"
+  },
+  {
+    "id": 220,
+    "question": "Which of the following is a key component of the Kerberos authentication system in Linux?",
+    "options": {
+      "A": "TGT (Ticket Granting Ticket)",
+      "B": "LDAP (Lightweight Directory Access Protocol)",
+      "C": "DNS (Domain Name System)",
+      "D": "SSH (Secure Shell)"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_220.png"
+  },
+  {
+    "id": 221,
+    "question": "Which of the following is a benefit of configuring a simple baseline?",
+    "options": {
+      "A": "Increases system complexity",
+      "B": "Requires extensive Linux knowledge",
+      "C": "Simplifies system setup for users",
+      "D": "Reduces system security"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_221.png"
+  },
+  {
+    "id": 222,
+    "question": "Which of the following commands lists quota usage by user?",
+    "options": {
+      "A": "quota",
+      "B": "repquota",
+      "C": "quotacheck",
+      "D": "quotarep"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_222.png"
+  },
+  {
+    "id": 223,
+    "question": "Which of the following files would you expect to contain Kerberos keys?",
+    "options": {
+      "A": "krb5.keys",
+      "B": "users.krb",
+      "C": "michael.key",
+      "D": "user.keytab"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_223.png"
+  },
+  {
+    "id": 224,
+    "question": "Which of the following Samba directives sets the name for the local server?",
+    "options": {
+      "A": "hostname",
+      "B": "netbios name",
+      "C": "server_name",
+      "D": "domain name"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_224.png"
+  },
+  {
+    "id": 225,
+    "question": "Which of the following directories contain GPG private and public keys?",
+    "options": {
+      "A": ".gpg",
+      "B": ".gpgkeys",
+      "C": ".gnupg",
+      "D": ".keys"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_225.png"
+  },
+  {
+    "id": 226,
+    "question": "Which of the following features is no longer associated with a separate kernel on many Linux distributions?",
+    "options": {
+      "A": "Virtual machine hosts",
+      "B": "Xen",
+      "C": "SMP",
+      "D": "Servers"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_226.png"
+  },
+  {
+    "id": 227,
+    "question": "Which of the following is not directly involved in kernel security risk mitigation?",
+    "options": {
+      "A": "Enabling SELinux support",
+      "B": "Configuring hot-pluggable device support",
+      "C": "Utilizing the Cryptographic API",
+      "D": "Disabling unnecessary filesystems"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_227.png"
+  },
+  {
+    "id": 228,
+    "question": "Which of the following concepts is part of the C-I-A triad?",
+    "options": {
+      "A": "Authority",
+      "B": "Access",
+      "C": "Authenticity",
+      "D": "Availability"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_228.png"
+  },
+  {
+    "id": 229,
+    "question": "Which of the following indicators explains that the 2.6.34.4 version of the Linux kernel is stable?",
+    "options": {
+      "A": "Majorversion",
+      "B": "Majorrevision",
+      "C": "Updateversion",
+      "D": "Patchnumber",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_229.png"
+  },
+  {
+    "id": 230,
+    "question": "Which of the following polkit concepts is associated with configuring access rules to special desktop tools by user?",
+    "options": {
+      "A": "Implicit authorizations",
+      "B": "Explicit authorizations",
+      "C": "Administrative authorizations",
+      "D": "Polkit authorizations"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_230.png"
+  },
+  {
+    "id": 231,
+    "question": "Which of the following is a primary concern of a Linux System Administrator?",
+    "options": {
+      "A": "Network advertising",
+      "B": "System availability and performance",
+      "C": "Marketing strategies",
+      "D": "Financial budgeting"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_231.png"
+  },
+  {
+    "id": 232,
+    "question": "Which of the following bits of information is contained in a WINS server?",
+    "options": {
+      "A": "Usernames",
+      "B": "Permissions",
+      "C": "NetBIOS names",
+      "D": "Hostnames"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_232.png"
+  },
+  {
+    "id": 233,
+    "question": "Which of the following authentication tools work locally?",
+    "options": {
+      "A": "NIS",
+      "B": "PAM",
+      "C": "LDAP",
+      "D": "Winbind"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_233.png"
+  },
+  {
+    "id": 234,
+    "question": "Which of the following might be used to perform intrusion-detection services?",
+    "options": {
+      "A": "Apache",
+      "B": "X",
+      "C": "Snort",
+      "D": "Mandrake"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_234.png"
+  },
+  {
+    "id": 235,
+    "question": "Which SSH command is used to connect to a remote server with a specific username and IP address?",
+    "options": {
+      "A": "ssh -l username ip_address",
+      "B": "ssh username@ip_address",
+      "C": "ssh remote -u username -a ip_address",
+      "D": "ssh username:ip_address"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_235.png"
+  },
+  {
+    "id": 236,
+    "question": "Which of the following tools is commonly used to manage kernel upgrades on Red Hat-based systems?",
+    "options": {
+      "A": "apt-get",
+      "B": "yum or dnf",
+      "C": "make",
+      "D": "pacman"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_236.png"
+  },
+  {
+    "id": 237,
+    "question": "Which of the following commands can be used to customize the SELinux characteristics of a file?",
+    "options": {
+      "A": "fixfiles",
+      "B": "chcon",
+      "C": "restorecon",
+      "D": "secon"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_237.png"
+  },
+  {
+    "id": 238,
+    "question": "Which of the following commands only requires the password of a configured standard user?",
+    "options": {
+      "A": "sudoers",
+      "B": "sudo",
+      "C": "su",
+      "D": "sg"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_238.png"
+  },
+  {
+    "id": 239,
+    "question": "Which Apache directive specifies an alternative port for Web pages?",
+    "options": {
+      "A": "Listen",
+      "B": "Quiet",
+      "C": "Server tokens",
+      "D": "Web port",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_239.png"
+  },
+  {
+    "id": 240,
+    "question": "Which action should you not take when implementing a new kernel?",
+    "options": {
+      "A": "Upgrade",
+      "B": "Install",
+      "C": "Patch",
+      "D": "Compile"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_240.png"
+  },
+  {
+    "id": 241,
+    "question": "Which command shows the current SELinux user context?",
+    "options": {
+      "A": "chcon",
+      "B": "ls -Z",
+      "C": "id -Z",
+      "D": "getenforce"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_241.png"
+  },
+  {
+    "id": 242,
+    "question": "Which authentication system is not normally configured with RADIUS?",
+    "options": {
+      "A": "PPP",
+      "B": "CHAP",
+      "C": "PAP",
+      "D": "EAP"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_242.png"
+  },
+  {
+    "id": 243,
+    "question": "Which command checks connected repositories for available update?",
+    "options": {
+      "A": "yum check",
+      "B": "yum check-update",
+      "C": "yum update list",
+      "D": "yum update"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_243.png"
+  },
+  {
+    "id": 244,
+    "question": "Which command lists the SELinux characteristics of a \"filename\" file?",
+    "options": {
+      "A": "ls filename",
+      "B": "ls -SE filename",
+      "C": "ls -I filename",
+      "D": "ls -Z filename",
+      "E": "ls -S filename"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_244.png"
+  },
+  {
+    "id": 245,
+    "question": "Which command uses the GAPING_SECURITY_HOLE option?",
+    "options": {
+      "A": "snort",
+      "B": "nmap",
+      "C": "password",
+      "D": "nc",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_245.png"
+  },
+  {
+    "id": 246,
+    "question": "Which command can you use to test whether a host is allowed or denied access based on TCP wrapper rules?",
+    "options": {
+      "A": "tcpcheck",
+      "B": "accesschk",
+      "C": "tcpdchk",
+      "D": "tcpwrapper"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_246.png"
+  },
+  {
+    "id": 247,
+    "question": "Which daemon is considered more secure and flexible for managing network services?",
+    "options": {
+      "A": "inetd",
+      "B": "xinetd",
+      "C": "Both are equally secure",
+      "D": "Neither are considered secure"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_247.png"
+  },
+  {
+    "id": 248,
+    "question": "Which directive in /etc/login.defs sets the maximum number of days a password can be used?",
+    "options": {
+      "A": "LOGIN_TIMEOUT",
+      "B": "PASS_MIN_DAYS",
+      "C": "PASS_MAX_DAYS",
+      "D": "FAILLOG_ENAB"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_248.png"
+  },
+  {
+    "id": 249,
+    "question": "Which directive in /etc/sysctl.conf should be set to 0 to deactivate routing on the local system?",
+    "options": {
+      "A": "net.ipv4.ip_forward",
+      "B": "net.sys.ipv4.ip_route",
+      "C": "net.ipv4.ip_routing",
+      "D": "net.sys.ipv4.ip_source"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_249.png"
+  },
+  {
+    "id": 250,
+    "question": "Which level of authentication is the lowest level used by the Apache Web server?",
+    "options": {
+      "A": "Digest",
+      "B": "NTLM",
+      "C": "Base19",
+      "D": "Basic"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_250.png"
+  },
+  {
+    "id": 251,
+    "question": "Which Linux filesystem format does not include any type of journaling?",
+    "options": {
+      "A": "ext2",
+      "B": "ext3",
+      "C": "ext4",
+      "D": "xfs",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_251.png"
+  },
+  {
+    "id": 252,
+    "question": "Which filesystem format is best suited for a smaller volume?",
+    "options": {
+      "A": "ext2",
+      "B": "ext3",
+      "C": "ext4",
+      "D": "reiserfs",
+      "E": "mbr"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_252.png"
+  },
+  {
+    "id": 253,
+    "question": "Which Tripwire command can you run regularly to detect deviations from a baseline?",
+    "options": {
+      "A": "# scan --deviations",
+      "B": "# scan --checkb",
+      "C": "# tripwire --check",
+      "D": "# tripwire --deviations",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_253.png"
+  },
+  {
+    "id": 254,
+    "question": "Which port should a database server typically be restricted to listen?",
+    "options": {
+      "A": "eth0",
+      "B": "All ports",
+      "C": "Loopback",
+      "D": "Looparound",
+      "E": "Local"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_254.png"
+  },
+  {
+    "id": 255,
+    "question": "Which utility would you use to add or remove packages on a Debian or Ubuntu system?",
+    "options": {
+      "A": "Yum",
+      "B": "Apt-cache",
+      "C": "Apt-get",
+      "D": "Bin"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_255.png"
+  },
+  {
+    "id": 256,
+    "question": "Which tool in Linux is used for remote logging?",
+    "options": {
+      "A": "Logstash",
+      "B": "Rsyslog",
+      "C": "Fluentd",
+      "D": "Splunk"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_256.png"
+  },
+  {
+    "id": 257,
+    "question": "Which tool allows you to encrypt a file using a passphrase?",
+    "options": {
+      "A": "cryptmount",
+      "B": "gpg -c",
+      "C": "luksFormat",
+      "D": "openssl keygen"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_257.png"
+  },
+  {
+    "id": 258,
+    "question": "Which polkit concept is associated with configuring access rules to special desktop tools by user?",
+    "options": {
+      "A": "Implicit authorizations",
+      "B": "Explicit authorizations",
+      "C": "Administrative authorizations",
+      "D": "Polkit authorizations"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_258.png"
+  },
+  {
+    "id": 259,
+    "question": "When considering the selection of a delivery platform for Linux, what factors should organizations evaluate when choosing between physical systems, virtual machines, and cloud services? Select the most critical factor.",
+    "options": {
+      "A": "Cost-effectiveness",
+      "B": "Resource flexibility",
+      "C": "Security and scalability",
+      "D": "Device compatibility"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_259.png"
+  },
+  {
+    "id": 260,
+    "question": "When an updated kernel is released with a security update, which of the following numbers in the kernel is changed? Hoàng Hoàng",
+    "options": {
+      "A": "Major version",
+      "B": "Minor version",
+      "C": "Update version",
+      "D": "Patch number"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_260.png"
+  },
+  {
+    "id": 261,
+    "question": "When auditing user security, which of the following can you use Squid to audit?",
+    "options": {
+      "A": "Physical access",
+      "B": "Internet access",
+      "C": "E-mail access",
+      "D": "Remote access",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_261.png"
+  },
+  {
+    "id": 262,
+    "question": "How can kernel security be increased using the /proc/ filesystem?",
+    "options": {
+      "A": "By replying to broadcasts",
+      "B": "By enhancing GUI",
+      "C": "By activating reverse path filtering",
+      "D": "By installing games"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_262.png"
+  },
+  {
+    "id": 263,
+    "question": "Who developed the first Linux kernel?",
+    "options": {
+      "A": "Andrew S. Tannenbaum",
+      "B": "Bill Gates",
+      "C": "Linus Torvalds",
+      "D": "Richard Stallman",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_263.png"
+  },
+  {
+    "id": 264,
+    "question": "A database server should typically be restricted to listening on which port?",
+    "options": {
+      "A": "eth0",
+      "B": "All ports",
+      "C": "Loopback",
+      "D": "Looparound"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_264.png"
+  },
+  {
+    "id": 265,
+    "question": "A data structure associated with a Linux file that describes the location of the file on a disk, as well as other metadata about the file is:",
+    "options": {
+      "A": "block",
+      "B": "inode",
+      "C": "limit",
+      "D": "quota"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_265.png"
+  },
+  {
+    "id": 266,
+    "question": "After running SAINT, you discover an issue that allows unauthorized access to your network. Which SAINT reporting level does the issue fall under?",
+    "options": {
+      "A": "Critical problems",
+      "B": "Areas of concern",
+      "C": "Potential problems",
+      "D": "Services",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_266.png"
+  },
+  {
+    "id": 267,
+    "question": "Additional packages that are necessary for a requested package to function are called which of the following?",
+    "options": {
+      "A": "Inheritance",
+      "B": "Terminal",
+      "C": "Dependencies",
+      "D": "Package management"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_267.png"
+  },
+  {
+    "id": 268,
+    "question": "Among the listed commands, which one sets permissions on \"filename\" to exclude all users except the owner and the file's designated group?",
+    "options": {
+      "A": "chmod 770 filename",
+      "B": "chmod 707 filename",
+      "C": "chmod 077 filename",
+      "D": "chmod 007 filename"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_268.png"
+  },
+  {
+    "id": 269,
+    "question": "AppArmor and SELinux are used to implement which of the following?",
+    "options": {
+      "A": "Lattice-based access controls",
+      "B": "Mandatory access controls",
+      "C": "Password protection",
+      "D": "File sharing"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_269.png"
+  },
+  {
+    "id": 270,
+    "question": "Before customizing a kernel, you should clean the directories associated with the source code by using which command?",
+    "options": {
+      "A": "make sanitized",
+      "B": "make clean",
+      "C": "make menuconfig",
+      "D": "make fresh",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_270.png"
+  },
+  {
+    "id": 271,
+    "question": "For Linux systems, which choice represents a service that launches at startup and operates continuously in the background?",
+    "options": {
+      "A": "Super server",
+      "B": "init",
+      "C": "systemd",
+      "D": "daemon",
+      "E": "All of the above"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_271.png"
+  },
+  {
+    "id": 272,
+    "question": "Firewalld is used for what purpose?",
+    "options": {
+      "A": "Managing user permissions",
+      "B": "Monitoring system performance",
+      "C": "Filtering network traffic",
+      "D": "Accelerating internet connections"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_272.png"
+  },
+  {
+    "id": 273,
+    "question": "In Kerberos configuration, which of the following defines the realm name in the krb5.conf file?",
+    "options": {
+      "A": "[libdefaults] section",
+      "B": "[realms] section",
+      "C": "[domain_realm] section",
+      "D": "[logging] section"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_273.png"
+  },
+  {
+    "id": 274,
+    "question": "In the context of Linux distributions, when evaluating the suitability of a distribution for an enterprise environment, which factor should carry the most weight?",
+    "options": {
+      "A": "Community support and forums",
+      "B": "Frequency of software updates",
+      "C": "Stability and long-term support",
+      "D": "Number of pre-installed applications"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_274.png"
+  },
+  {
+    "id": 275,
+    "question": "If you want to set up a PDC, what should be the value of the security directive?",
+    "options": {
+      "A": "user",
+      "B": "domain",
+      "C": "server",
+      "D": "ads"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_275.png"
+  },
+  {
+    "id": 276,
+    "question": "Keeping secrets is the essence of which tenet of the C-I-A triad?",
+    "options": {
+      "A": "Confidentiality",
+      "B": "Integrity",
+      "C": "Availability",
+      "D": "Nonrepudiation"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_276.png"
+  },
+  {
+    "id": 277,
+    "question": "Of the following, which Linux distributions are released with LTS (Long-Term Support) every two years?",
+    "options": {
+      "A": "Ubuntu",
+      "B": "CentOS",
+      "C": "Fedora",
+      "D": "SUSE",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_277.png"
+  },
+  {
+    "id": 278,
+    "question": "Of the following virtualization solutions, which one runs Linux systems only as guests?",
+    "options": {
+      "A": "KVM (Kernel-based Virtual Machine)",
+      "B": "Microsoft Virtual Server",
+      "C": "VMware",
+      "D": "VirtualBox, open source edition",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_278.png"
+  },
+  {
+    "id": 279,
+    "question": "To protect from SYN Floods, you should:",
+    "options": {
+      "A": "Disable all firewalls",
+      "B": "Ignore security warnings",
+      "C": "Protect using specific kernel settings",
+      "D": "Use older kernel versions",
+      "E": "Disable root account"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_279.png"
+  },
+  {
+    "id": 280,
+    "question": "To customize a kernel, which command opens a kernel customization editing tool?",
+    "options": {
+      "A": "make custom",
+      "B": "make clean",
+      "C": "make menuconfig",
+      "D": "make krnledit",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_280.png"
+  },
+  {
+    "id": 281,
+    "question": "Ubuntu and Linux Mint derive from which of the following Linux distributions?",
+    "options": {
+      "A": "Red Hat",
+      "B": "Xubuntu",
+      "C": "Gentoo",
+      "D": "Debian"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_281.png"
+  },
+  {
+    "id": 282,
+    "question": "Suppose a scanner discovers a new port, 8888, which is open on a Web server. Which one of the following commands will provide information on the particular network-related process that has opened the port?",
+    "options": {
+      "A": "# nmap -p 8888 localhost",
+      "B": "# vmstat",
+      "C": "# lsof -ni",
+      "D": "# telnet localhost 8888",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_282.png"
+  },
+  {
+    "id": 283,
+    "question": "You are configuring a firewall platform that is managed through the firewall-cmd command-line option. What are you working with?",
+    "options": {
+      "A": "firewalld",
+      "B": "ipchains",
+      "C": "ipfwadm",
+      "D": "iptables"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_283.png"
+  },
+  {
+    "id": 284,
+    "question": "You are a malicious attacker. You want to install a Microsoft-based boot loader on a Linux system to gain control of the boot process. Which boot loader do you choose?",
+    "options": {
+      "A": "BootIt",
+      "B": "Grand Unified Boot (GRUB)",
+      "C": "NTLDR",
+      "D": "Partition Magic"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_284.png"
+  },
+  {
+    "id": 285,
+    "question": "You want to set up maximum protection with TCP Wrappers. What rule do you include in the /etc/hosts.deny file to deny access to all daemons from all clients?",
+    "options": {
+      "A": "ALL : ALL",
+      "B": "no daemons : no clients",
+      "C": "deny all",
+      "D": "all services : no clients",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_285.png"
+  },
+  {
+    "id": 286,
+    "question": "You suspect a DoS attack is exploiting a weakness in an application on an Apache Web server. You want to see how many processes are running on the server. Which of the following commands lists all currently running processes?",
+    "options": {
+      "A": "who apache",
+      "B": "ls -l /var/www/httpd",
+      "C": "ps aux",
+      "D": "ps -u root",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_286.png"
+  },
+  {
+    "id": 287,
+    "question": "You want to check the status of files compared to a baseline; specifically, you want to compare the state of stable directories. Which of the following can help you compare this task?",
+    "options": {
+      "A": "Tripwire",
+      "B": "Apache",
+      "C": "Rsyslog",
+      "D": "yum grouplist",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_287.png"
+  },
+  {
+    "id": 288,
+    "question": "You want to use TCP Wrappers to protect services dynamically linked to libwrap.so.0. Which command do you run to determine if a dynamic link already exists between the noted service and TCP Wrappers?",
+    "options": {
+      "A": "strings",
+      "B": "ls",
+      "C": "ldd",
+      "D": "wrapper",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_288.png"
+  },
+  {
+    "id": 289,
+    "question": "You want to search for and download some new open source software. What is the best Web site to browse?",
+    "options": {
+      "A": "Trusted Computing Group",
+      "B": "NIST",
+      "C": "GNU",
+      "D": "SourceForge",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_289.png"
+  },
+  {
+    "id": 290,
+    "question": "You are setting up Samba as a primary domain controller. What should be the value of the security directive?",
+    "options": {
+      "A": "share",
+      "B": "domain",
+      "C": "server",
+      "D": "user",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_290.png"
+  },
+  {
+    "id": 291,
+    "question": "You set up a File Transfer Protocol (FTP) server and configured it to allow users to access their home directories. Which directive should you also include in the configuration file for security purposes?",
+    "options": {
+      "A": "local_enable=YES",
+      "B": "chroot_local_user=YES",
+      "C": "anonymous_enable=NO",
+      "D": "chroot_local_user=NO"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_291.png"
+  },
+  {
+    "id": 292,
+    "question": "You want to review information on users who connect to Web sites configured on your Apache server. Which directive in the Apache log configuration file helps you capture this information?",
+    "options": {
+      "A": "ErrorLog",
+      "B": "CustomLog",
+      "C": "TransferLog",
+      "D": "LogFormat",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_292.png"
+  },
+  {
+    "id": 293,
+    "question": "You are a Linux system administrator. You want to reduce the attack surface of your servers. What should you keep to a minimum in order to make the servers less vulnerable to attacks?",
+    "options": {
+      "A": "Virtual memory",
+      "B": "Physical memory",
+      "C": "Packages",
+      "D": "Process priorities"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_293.png"
+  },
+  {
+    "id": 294,
+    "question": "You are writing documentation for a broad audience and want to use a fictitious domain name. The domain name should not be available for registration on the Internet. Which domain name can you use safely?",
+    "options": {
+      "A": "mycompany.com",
+      "B": "example.com",
+      "C": "sample.com",
+      "D": "website.com",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_294.png"
+  },
+  {
+    "id": 295,
+    "question": "You want to find executable files in user directories. Which command is the best choice?",
+    "options": {
+      "A": "find",
+      "B": "where",
+      "C": "ls",
+      "D": "strace",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_295.png"
+  },
+  {
+    "id": 296,
+    "question": "You want to list open files, focusing the output on network-related processes and organizing the connections by service. Which command can you use?",
+    "options": {
+      "A": "lsof -ni",
+      "B": "netstat -atun",
+      "C": "netstat -r",
+      "D": "netstat -i",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_296.png"
+  },
+  {
+    "id": 297,
+    "question": "You turned off an iptables firewall to test it with the nmap tool. How do you restart the firewall?",
+    "options": {
+      "A": "iptables reload",
+      "B": "restart iptables",
+      "C": "iptables shutdown",
+      "D": "iptables restart",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_297.png"
+  },
+  {
+    "id": 298,
+    "question": "Which filesystem encryption technique is known for being part of the kernel space and supports encrypting entire disks?",
+    "options": {
+      "A": "EncFS",
+      "B": "TrueCrypt",
+      "C": "LUKS with dm-Crypt",
+      "D": "AES"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_298.png"
+  },
+  {
+    "id": 299,
+    "question": "What type of kernel architecture does Linux use?",
+    "options": {
+      "A": "Microkernel",
+      "B": "Monolithic",
+      "C": "Hybrid",
+      "D": "Exokernel"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_299.png"
+  },
+  {
+    "id": 300,
+    "question": "Which SELinux component is responsible for defining the rules that control access to resources?",
+    "options": {
+      "A": "Context Manager",
+      "B": "Policy Server",
+      "C": "Targeted Security Module",
+      "D": "Security Policy"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_300.png"
+  },
+  {
+    "id": 303,
+    "question": "What is the primary purpose of access control lists (ACLs)?",
+    "options": {
+      "A": "To disable the Linux firewall",
+      "B": "To manage email services",
+      "C": "To provide an additional layer of permissions",
+      "D": "To configure network time protocols"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_303.png"
+  },
+  {
+    "id": 304,
+    "question": "What is an advantage of using non-standard ports for network services?",
+    "options": {
+      "A": "Enhances the encryption of data",
+      "B": "Increases the bandwidth available",
+      "C": "May slightly obscure services from attackers",
+      "D": "Reduces the overall load on the system"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_304.png"
+  },
+  {
+    "id": 305,
+    "question": "What is a salt?",
+    "options": {
+      "A": "A numeric identifier for a user group",
+      "B": "A type of firewall",
+      "C": "A value added to a hash",
+      "D": "A login shell"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_305.png"
+  },
+  {
+    "id": 306,
+    "question": "What is the primary purpose of a DMZ in network architecture?",
+    "options": {
+      "A": "To provide a secure network for database servers",
+      "B": "To isolate public-facing services from the internal network",
+      "C": "To encrypt all incoming and outgoing traffic",
+      "D": "To serve as the only access point for wireless devices"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_306.png"
+  },
+  {
+    "id": 307,
+    "question": "What is the primary purpose of Pluggable Authentication Modules (PAM)?",
+    "options": {
+      "A": "To provide a method for applying global system policies",
+      "B": "To encrypt user passwords",
+      "C": "To manage user session scripts",
+      "D": "To provide a flexible mechanism for authenticating users"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_307.png"
+  },
+  {
+    "id": 308,
+    "question": "What is the significance of having an incident response plan?",
+    "options": {
+      "A": "To ensure all incidents are ignored",
+      "B": "To provide a clear protocol for responding to security breaches",
+      "C": "To document all software installations",
+      "D": "To outline the company's financial strategies"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_308.png"
+  },
+  {
+    "id": 309,
+    "question": "What is the purpose of a \"gold baseline\"?",
+    "options": {
+      "A": "To provide an unsecure starting point for testing",
+      "B": "To serve as a reusable, standardized system configuration",
+      "C": "To enhance multimedia performance",
+      "D": "To support dynamic changes to all directories"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_309.png"
+  },
+  {
+    "id": 310,
+    "question": "What is the purpose of the /etc/init.d directory in older Linux distributions?",
+    "options": {
+      "A": "To store system logs",
+      "B": "To store configuration files for services",
+      "C": "To store scripts for starting, stopping, and restarting services",
+      "D": "To store temporary files"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_310.png"
+  },
+  {
+    "id": 311,
+    "question": "What is the purpose of the /var directory in a Linux filesystem?",
+    "options": {
+      "A": "To store system logs, temporary files, and other variable data",
+      "B": "To store user-specific configuration files and preferences",
+      "C": "To store essential boot files and kernel modules",
+      "D": "To store system libraries and shared binaries"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_311.png"
+  },
+  {
+    "id": 312,
+    "question": "What is the primary purpose of the rsync command in Linux?",
+    "options": {
+      "A": "To create compressed archive files",
+      "B": "To synchronize local and remote systems",
+      "C": "To search and replace text within files",
+      "D": "To create and manage user accounts"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_312.png"
+  },
+  {
+    "id": 313,
+    "question": "What is one function of commercial update managers?",
+    "options": {
+      "A": "To reduce the internet speed required for updates",
+      "B": "To push updates to multiple systems simultaneously",
+      "C": "To replace the need for antivirus software",
+      "D": "To automate system shutdowns"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_313.png"
+  },
+  {
+    "id": 314,
+    "question": "What is the main purpose of running integrity checks on a Linux system?",
+    "options": {
+      "A": "To install new software packages",
+      "B": "To detect unauthorized changes to critical files",
+      "C": "To optimize system performance",
+      "D": "To create backup copies of data"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_314.png"
+  },
+  {
+    "id": 315,
+    "question": "What is the purpose of the chage command in Linux?",
+    "options": {
+      "A": "To change user privileges",
+      "B": "To check for password strength",
+      "C": "To modify user password expiry information",
+      "D": "To change the user's username"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_315.png"
+  },
+  {
+    "id": 316,
+    "question": "What is the main purpose of TCP Wrappers?",
+    "options": {
+      "A": "To encrypt web traffic",
+      "B": "To manage user access to web services",
+      "C": "To offer additional protection by restricting IP connections",
+      "D": "To optimize TCP/IP performance"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_316.png"
+  },
+  {
+    "id": 317,
+    "question": "What is the purpose of quotas in Linux?",
+    "options": {
+      "A": "To encrypt directories",
+      "B": "To limit resource usage by users or groups",
+      "C": "To set file permissions",
+      "D": "To manage encryption keys"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_317.png"
+  },
+  {
+    "id": 318,
+    "question": "What is the primary purpose of the mount command in Linux?",
+    "options": {
+      "A": "To create new directories",
+      "B": "To format disk partitions",
+      "C": "To attach file systems and devices to the directory tree",
+      "D": "To display system uptime"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_318.png"
+  },
+  {
+    "id": 319,
+    "question": "What is one reason for the option to test installation media during the Red Hat installation process?",
+    "options": {
+      "A": "To configure network settings",
+      "B": "To protect against read errors from failing media",
+      "C": "To select different desktop environments",
+      "D": "To install third-party software"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_319.png"
+  },
+  {
+    "id": 320,
+    "question": "What is the primary purpose of testing every component of a layered defense?",
+    "options": {
+      "A": "To minimize the number of user accounts",
+      "B": "To ensure each layer can protect against known vulnerabilities",
+      "C": "To simplify network management",
+      "D": "To reduce the cost of security infrastructure"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_320.png"
+  },
+  {
+    "id": 321,
+    "question": "What is the primary purpose of the GNU General Public License (GPL) in the context of Linux?",
+    "options": {
+      "A": "To ensure all software is free of charge",
+      "B": "To mandate commercial software usage",
+      "C": "To require that derivative works also be open source",
+      "D": "To prohibit any modification of the original software"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_321.png"
+  },
+  {
+    "id": 322,
+    "question": "What is set on the /home/special directory to assign group ownership to any files copied to that directory?",
+    "options": {
+      "A": "set user ID (SUID) bit",
+      "B": "set group ID (SGID) bit",
+      "C": "sticky bit",
+      "D": "set group ID (SGID) bit and the sticky bit"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_322.png"
+  },
+  {
+    "id": 323,
+    "question": "What is an advantage of the xinetd over inetd?",
+    "options": {
+      "A": "It supports 3D graphics acceleration",
+      "B": "It offers better functionality and control over services",
+      "C": "It allows direct editing of the Linux kernel",
+      "D": "It simplifies the package installation process"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_323.png"
+  },
+  {
+    "id": 324,
+    "question": "What is a significant disadvantage of using a custom kernel?",
+    "options": {
+      "A": "It is less secure than vendor-supplied kernels",
+      "B": "It requires manual recompilation for updates and patches",
+      "C": "It cannot be optimized for specific hardware",
+      "D": "It does not support loadable modules"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_324.png"
+  },
+  {
+    "id": 325,
+    "question": "What is a primary method for managing distribution security updates?",
+    "options": {
+      "A": "Manual code inspection",
+      "B": "Using structured repositories for binary packages",
+      "C": "Email notifications only",
+      "D": "Outsourcing IT management"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_325.png"
+  },
+  {
+    "id": 326,
+    "question": "What is the main difference between a partition and a volume in Linux?",
+    "options": {
+      "A": "A partition is a formatted storage unit, while a volume is unformatted",
+      "B": "A partition segments a disk, while a volume can span multiple disks",
+      "C": "A volume is smaller than a partition",
+      "D": "A partition is mounted, while a volume is always read-only",
+      "E": "A volume is used for temporary storage, while a partition is permanent"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_326.png"
+  },
+  {
+    "id": 327,
+    "question": "What is one of the main challenges in maintaining a gold baseline across multiple systems?",
+    "options": {
+      "A": "Ensuring all systems have the same hardware specifications",
+      "B": "Keeping all systems updated with the latest security patches",
+      "C": "Reducing network bandwidth usage",
+      "D": "Improving user interface consistency",
+      "E": "Managing user permissions across systems"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_327.png"
+  },
+  {
+    "id": 328,
+    "question": "What is the best first step in responding to a compromised system?",
+    "options": {
+      "A": "Immediately turn off the computer system",
+      "B": "Immediately unplug the computer system from the electrical outlet",
+      "C": "Run a Live CD",
+      "D": "Follow what is outlined in the incident response plan",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_328.png"
+  },
+  {
+    "id": 329,
+    "question": "What is the primary disadvantage of type 2 hypervisors over type 1 hypervisors?",
+    "options": {
+      "A": "They have lower performance due to an additional layer",
+      "B": "They have limited support for different operating systems",
+      "C": "They have higher costs due to licensing fees",
+      "D": "They have more complexity due to configuration issues",
+      "E": "They can not connect to the Internet"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_329.png"
+  },
+  {
+    "id": 330,
+    "question": "What is a potential issue with some security updates?",
+    "options": {
+      "A": "They may enhance system graphics",
+      "B": "They cannot be tested against every possible configuration",
+      "C": "They always slow down the system",
+      "D": "They decrease user privileges"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_330.png"
+  },
+  {
+    "id": 331,
+    "question": "What is a major benefit of creating a local update repository?",
+    "options": {
+      "A": "Faster internet speeds",
+      "B": "Reduces load on the network's Internet connection",
+      "C": "Increases security vulnerabilities",
+      "D": "Simplifies user access controls"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_331.png"
+  },
+  {
+    "id": 332,
+    "question": "What is the primary purpose of Linux Kernel Security Options?",
+    "options": {
+      "A": "Customizing the appearance of the Linux kernel",
+      "B": "Enhancing the graphical user interface of the operating system",
+      "C": "Modifying system files during the boot process",
+      "D": "Configuring security features and settings for the Linux kernel"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_332.png"
+  },
+  {
+    "id": 333,
+    "question": "What is a monolithic kernel, like the Linux kernel?",
+    "options": {
+      "A": "A kernel that is distributed across multiple servers",
+      "B": "A kernel that runs everything, including device drivers and system services",
+      "C": "A kernel that only runs system calls, with other processes running in user space",
+      "D": "A modular kernel that dynamically loads and unloads drivers"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_333.png"
+  },
+  {
+    "id": 334,
+    "question": "What is the primary objective of security in the context of computer systems and data protection?",
+    "options": {
+      "A": "Ensuring maximum system performance",
+      "B": "Maintaining complete anonymity",
+      "C": "Protecting against unauthorized access, breaches, and data loss",
+      "D": "Enhancing user convenience and ease of use"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_334.png"
+  },
+  {
+    "id": 335,
+    "question": "What is the main benefit of subscribing to the Red Hat Network (RHN)?",
+    "options": {
+      "A": "Access to automated hardware diagnostics",
+      "B": "Ability to download and apply security patches directly",
+      "C": "Free access to enterprise-level software tools",
+      "D": "Enhanced system performance monitoring"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_335.png"
+  },
+  {
+    "id": 336,
+    "question": "What is a benefit of monitoring the performance of a system baseline?",
+    "options": {
+      "A": "It allows for the collection of user data",
+      "B": "It facilitates remote desktop access",
+      "C": "It helps in identifying unauthorized changes or behavior",
+      "D": "It increases the system's overall speed"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_336.png"
+  },
+  {
+    "id": 337,
+    "question": "What is a consideration in deciding between automated updates or analyzed alerts?",
+    "options": {
+      "A": "The cost of internet bandwidth",
+      "B": "Trust in the distribution's security measures",
+      "C": "The color scheme of the desktop environment",
+      "D": "Preference for command-line interfaces over graphical interfaces"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_337.png"
+  },
+  {
+    "id": 338,
+    "question": "What is the main difference between a server and a desktop configuration in the context of Linux security?",
+    "options": {
+      "A": "Servers usually have a graphical user interface enabled",
+      "B": "Desktops are typically connected to a network, whereas servers are not",
+      "C": "Servers are primarily used for data storage, not application hosting",
+      "D": "Servers typically run more services and have a larger attack surface"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_338.png"
+  },
+  {
+    "id": 339,
+    "question": "What is Bourne Again Shell (Bash)?",
+    "options": {
+      "A": "A graphical user interface (GUI) desktop for Linux",
+      "B": "A command interpreter used to issue text commands",
+      "C": "A secure shell for remote access",
+      "D": "A type of terminal application"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_339.png"
+  },
+  {
+    "id": 340,
+    "question": "What is a symlink?",
+    "options": {
+      "A": "Another name for an Internet hyperlink",
+      "B": "A service dependency",
+      "C": "An application dependency",
+      "D": "A reference to a file name in the filesystem"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_340.png"
+  },
+  {
+    "id": 341,
+    "question": "What is the main benefit of maintaining a gold baseline configuration for Linux systems?",
+    "options": {
+      "A": "It provides an easy way to deploy new applications",
+      "B": "It reduces the need for security updates",
+      "C": "It simplifies the process of duplicating system configurations",
+      "D": "It ensures compatibility with all hardware"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_341.png"
+  },
+  {
+    "id": 342,
+    "question": "What is a symlink?",
+    "options": {
+      "A": "Another name for an Internet hyperlink",
+      "B": "A service dependency",
+      "C": "An application dependency",
+      "D": "A reference to a file name in the filesystem"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_342.png"
+  },
+  {
+    "id": 343,
+    "question": "What are boot loaders like GRUB and LILO responsible for during Linux booting?",
+    "options": {
+      "A": "Locate the kernel and load it into memory",
+      "B": "Locate the memory and load it into kernel",
+      "C": "Start the command line interface",
+      "D": "Start the graphical interface",
+      "E": "Start the command line interface and the graphical interface"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_343.png"
+  },
+  {
+    "id": 344,
+    "question": "What are Pluggable Authentication Modules (PAM) used for in Linux?",
+    "options": {
+      "A": "To manage kernel modules",
+      "B": "To configure network settings",
+      "C": "To manage authentication for system entry points",
+      "D": "To automate system updates"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_344.png"
+  },
+  {
+    "id": 345,
+    "question": "What are runlevels in a Linux system?",
+    "options": {
+      "A": "Levels of access control for user accounts",
+      "B": "Different states of the Linux kernel",
+      "C": "Stages of system boot and initialization",
+      "D": "Types of file permissions"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_345.png"
+  },
+  {
+    "id": 346,
+    "question": "What does the boot: \"linux text\" command initiate in Red Hat's installer?",
+    "options": {
+      "A": "A graphical installation",
+      "B": "A network-based installation",
+      "C": "A text-based installation",
+      "D": "An automated installation without user input"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_346.png"
+  },
+  {
+    "id": 347,
+    "question": "What does the Internet Assigned Numbers Authority (IANA) manage?",
+    "options": {
+      "A": "Internet service provider subscriptions",
+      "B": "Web page content standards",
+      "C": "Well-known port numbers and protocols",
+      "D": "Encryption algorithms for the web"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_347.png"
+  },
+  {
+    "id": 348,
+    "question": "What does the Samba 'hosts allow' directive do?",
+    "options": {
+      "A": "Defines allowed SMTP hosts",
+      "B": "Specifies permitted SSH clients",
+      "C": "Limits access to specified IP addresses or networks",
+      "D": "Restricts database connections to approved hosts"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_348.png"
+  },
+  {
+    "id": 349,
+    "question": "What can you achieve by starting a hardened system?",
+    "options": {
+      "A": "Increase the graphical capabilities of the system",
+      "B": "Improve the system's boot time",
+      "C": "Enhance the system's security and reduce vulnerabilities",
+      "D": "Expand the system's storage capacity"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_349.png"
+  },
+  {
+    "id": 350,
+    "question": "What function does setting the chage -d 0 username command serve?",
+    "options": {
+      "A": "Deletes the user account",
+      "B": "Changes the user's directory",
+      "C": "Forces the user to change their password at next login",
+      "D": "Resets the user's disk quota"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_350.png"
+  },
+  {
+    "id": 351,
+    "question": "What happens if a service is listed in /etc/hosts.deny but not in /etc/hosts.allow?",
+    "options": {
+      "A": "The service is allowed to connect",
+      "B": "The service is denied access",
+      "C": "The service is redirected to another port",
+      "D": "The service's access is logged but not blocked"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_351.png"
+  },
+  {
+    "id": 352,
+    "question": "What security risk exists if a new custom kernel overwrites the existing one?",
+    "options": {
+      "A": "The system may boot faster",
+      "B": "The system may become unbootable",
+      "C": "It may fix too many bugs",
+      "D": "Kernel modules may auto-install"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_352.png"
+  },
+  {
+    "id": 353,
+    "question": "What potential risk is associated with configuring services on non-standard ports?",
+    "options": {
+      "A": "It can increase the susceptibility to denial-of-service attacks",
+      "B": "It may make the service undiscoverable by legitimate users",
+      "C": "It generally reduces the service's operational security",
+      "D": "It bypasses all firewall rules configured for standard ports"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_353.png"
+  },
+  {
+    "id": 355,
+    "question": "Which of the following is a characteristic of a security kernel in computer security architecture?",
+    "options": {
+      "A": "High-speed data processing",
+      "B": "Ensuring backward compatibility with legacy systems",
+      "C": "Providing a small trusted computing base",
+      "D": "Optimizing energy efficiency"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_355.png"
+  },
+  {
+    "id": 356,
+    "question": "Which of the following is not true of encryption in Linux?",
+    "options": {
+      "A": "You can encrypt individual files.",
+      "B": "You can encrypt user directories.",
+      "C": "You can encrypt whole disks but not individual partitions.",
+      "D": "You can use different commands to encrypt files versus directories.",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_356.png"
+  },
+  {
+    "id": 357,
+    "question": "Which of the following is a recommended practice for security operations management?",
+    "options": {
+      "A": "Periodic system shutdowns.",
+      "B": "Keeping systems up to date.",
+      "C": "Limiting internet access.",
+      "D": "Using a single password across systems."
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_357.png"
+  },
+  {
+    "id": 358,
+    "question": "Which of the following is not a potential security issue with respect to the Linux GUI?",
+    "options": {
+      "A": "The Linux GUI is a client-server system.",
+      "B": "Linux GUI applications can be networked.",
+      "C": "Linux GUI applications can be accessed over an SSH connection.",
+      "D": "Users can log into the Linux GUI remotely."
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_358.png"
+  },
+  {
+    "id": 359,
+    "question": "Which of the following is an example of discretionary access controls?",
+    "options": {
+      "A": "SELinux",
+      "B": "AppArmor",
+      "C": "PolicyKit",
+      "D": "User-defined read, write, and execute permissions"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_359.png"
+  },
+  {
+    "id": 360,
+    "question": "Which of the following statements that most accurately reflects the structure of the Linux kernel?",
+    "options": {
+      "A": "A single monolithic kernel",
+      "B": "A completely modular kernel",
+      "C": "A modular core with monolithic components",
+      "D": "A monolithic core with modular components"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_360.png"
+  },
+  {
+    "id": 361,
+    "question": "Which of the following best describes the primary purpose of Samba in a Linux environment?",
+    "options": {
+      "A": "To configure firewall rules.",
+      "B": "To provide file and print services to Windows clients.",
+      "C": "To create virtual networks.",
+      "D": "To manage user accounts."
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_361.png"
+  },
+  {
+    "id": 362,
+    "question": "Which of the following is a security risk associated with the LILO boot loader?",
+    "options": {
+      "A": "Changes to LILO can be password protected.",
+      "B": "It supports password-free access to the administrative account.",
+      "C": "It allows a user to boot Microsoft Windows.",
+      "D": "It supports the booting of a monolithic Linux kernel."
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_362.png"
+  },
+  {
+    "id": 363,
+    "question": "Which iptables command is used to list all the rules in the INPUT chain of the filter table?",
+    "options": {
+      "A": "iptables -L INPUT",
+      "B": "iptables -A INPUT -p tcp --dport 22 -j ACCEPT",
+      "C": "iptables -I INPUT -j DROP",
+      "D": "iptables -F INPUT"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_363.png"
+  },
+  {
+    "id": 364,
+    "question": "How does redundancy contribute to system availability?",
+    "options": {
+      "A": "By increasing system complexity",
+      "B": "By providing backups in case of system failure",
+      "C": "By reducing the efficiency of system operations",
+      "D": "By lowering the overall cost of the IT infrastructure"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_364.png"
+  },
+  {
+    "id": 365,
+    "question": "How can you disable the packet forwarding on a running kernel?",
+    "options": {
+      "A": "Shut down the computer system and reconfigure it.",
+      "B": "Issue the # echo \"1\" > /proc/sys/net/ipv4/ip_forward command.",
+      "C": "Issue the # echo \"0\" > /proc/sys/net/ipv4/ip_forward command.",
+      "D": "Configure the settings using sysctl.conf file.",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_365.png"
+  },
+  {
+    "id": 366,
+    "question": "How can you minimize the risk of running vulnerable services on a Linux system?",
+    "options": {
+      "A": "Only run services from third-party sources.",
+      "B": "Avoid applying security patches to ensure compatibility.",
+      "C": "Regularly update services and apply security patches.",
+      "D": "Use outdated versions of services for stability."
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_366.png"
+  },
+  {
+    "id": 367,
+    "question": "How can NFS be secured beyond host-level restrictions?",
+    "options": {
+      "A": "By using simple password authentication",
+      "B": "Through careful configuration and Kerberos tickets",
+      "C": "NFS cannot be secured beyond host-level restrictions",
+      "D": "By disabling NFS entirely"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_367.png"
+  },
+  {
+    "id": 368,
+    "question": "Why is it important to monitor virtualized hardware in a security strategy?",
+    "options": {
+      "A": "Virtual hardware is always more secure than physical hardware",
+      "B": "Virtual machines are isolated and do not need monitoring",
+      "C": "Virtual machines can simulate real hardware and require similar monitoring",
+      "D": "Virtual hardware automatically applies security updates"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_368.png"
+  },
+  {
+    "id": 369,
+    "question": "Why is reducing the number of running services on a system recommended?",
+    "options": {
+      "A": "To increase the number of available IP addresses",
+      "B": "To reduce the system's power consumption",
+      "C": "To lower the risk of attacks and misuse",
+      "D": "It is not recommended; more services mean better functionality"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_369.png"
+  },
+  {
+    "id": 370,
+    "question": "Why is monitoring failed login attempts important in Linux security?",
+    "options": {
+      "A": "It can help identify potential system misuse or unauthorized access attempts",
+      "B": "It is a requirement for all Linux installations",
+      "C": "To detect and respond to possible security breaches",
+      "D": "It enhances the system's performance by logging access"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_370.png"
+  },
+  {
+    "id": 371,
+    "question": "Why is it important to test every component of a layered defense?",
+    "options": {
+      "A": "To ensure the firewall is impenetrable",
+      "B": "To find vulnerabilities in the system before attackers do",
+      "C": "To improve the speed of the network",
+      "D": "To comply with software licenses"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_371.png"
+  },
+  {
+    "id": 372,
+    "question": "Why are live CD distributions popular for secure baseline configurations?",
+    "options": {
+      "A": "They offer a fully customizable Linux environment",
+      "B": "They include read-only filesystems for security",
+      "C": "They support all hardware out of the box",
+      "D": "They are easier to update than installed systems"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_372.png"
+  },
+  {
+    "id": 373,
+    "question": "Where is the best place to report bugs you encounter in open source software?",
+    "options": {
+      "A": "Bug reporting site",
+      "B": "The developers themselves",
+      "C": "The store where you purchased the software media",
+      "D": "User forums",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_373.png"
+  },
+  {
+    "id": 375,
+    "question": "Cayson has been assigned to the print administrator group. He has administrative rights to the Common Unix Printing System (CUPS). As he begins authenticating, CUPS prompts him to provide a username and password. What does he enter?",
+    "options": {
+      "A": "A unique administrator name and password assigned by CUPS",
+      "B": "A unique administrator name for CUPS and his regular user password",
+      "C": "His regular username and a unique password for CUPS",
+      "D": "His regular username and password"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_375.png"
+  },
+  {
+    "id": 376,
+    "question": "During Kerberos configuration, what does the following command accomplish? ktutil: addent -password -p admin@EXAMPLE.ORG -k 1 -e rc4-hmac",
+    "options": {
+      "A": "Creates the Kerberos database",
+      "B": "Sets up user-account information along with encryption keys",
+      "C": "Merges keytab files",
+      "D": "Installs the Kerberos software on a client computer",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_376.png"
+  },
+  {
+    "id": 377,
+    "question": "For compiling a kernel on Ubuntu systems, you navigate to:",
+    "options": {
+      "A": "The directory with binary files",
+      "B": "The directory with the source code",
+      "C": "The home directory",
+      "D": "The directory with documentation"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_377.png"
+  },
+  {
+    "id": 378,
+    "question": "In configuring a minimal Red Hat baseline, what is the purpose of starting the installation with the 'linux text' command?",
+    "options": {
+      "A": "To initiate a network-based installation",
+      "B": "To enable advanced graphical features",
+      "C": "To perform a text-based installation",
+      "D": "To disable all security features for troubleshooting"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_378.png"
+  },
+  {
+    "id": 379,
+    "question": "In what form is SAINT available?",
+    "options": {
+      "A": "a virtual machine",
+      "B": "a bootable USB key",
+      "C": "both virtual machine and bootable USB key",
+      "D": "None of the other choices"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_379.png"
+  },
+  {
+    "id": 380,
+    "question": "In Linux, what is the purpose of the /home directory?",
+    "options": {
+      "A": "To store system libraries",
+      "B": "To hold home directories for regular users",
+      "C": "To organize system configuration files",
+      "D": "To keep boot-related files"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_380.png"
+  },
+  {
+    "id": 381,
+    "question": "You are downloading open-source code for a web server. A cryptographic hash is generated for the downloadable source code file. What does this protect you from?",
+    "options": {
+      "A": "A backdoor being installed in the software",
+      "B": "An attacker generating a new MD5",
+      "C": "The download being corrupted",
+      "D": "The tarball being packed"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_381.png"
+  },
+  {
+    "id": 382,
+    "question": "What is the role of GRUB in the Linux boot process?",
+    "options": {
+      "A": "Managing the Linux desktop environment.",
+      "B": "Editing system configuration files.",
+      "C": "Handling printer configurations.",
+      "D": "Managing the boot process and loading the operating system."
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_382.png"
+  },
+  {
+    "id": 383,
+    "question": "What is the primary purpose of the user private group scheme?",
+    "options": {
+      "A": "To assign a unique group to each user",
+      "B": "To share files with the local network",
+      "C": "To connect to wireless networks",
+      "D": "To monitor system logs"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_383.png"
+  },
+  {
+    "id": 384,
+    "question": "What is the advantage of using the yum command in Red Hat systems over manual installation of packages?",
+    "options": {
+      "A": "It allows for graphical user interface management of updates",
+      "B": "It automatically resolves and installs dependent packages",
+      "C": "It bypasses the need for security checks on packages",
+      "D": "It provides faster download speeds for updates"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_384.png"
+  },
+  {
+    "id": 387,
+    "question": "What is the effect of the set user ID (SUID) permission on a file?",
+    "options": {
+      "A": "It allows the file to be executed as the file owner",
+      "B": "It deletes the file automatically after it's executed",
+      "C": "It makes the file read-only to all users except the owner",
+      "D": "It encrypts the file with the user's ID"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_387.png"
+  },
+  {
+    "id": 388,
+    "question": "What is the primary purpose of securing the boot process in a Linux system?",
+    "options": {
+      "A": "To improve system performance during boot",
+      "B": "To prevent unauthorized access to the system before the operating system loads",
+      "C": "To optimize hardware detection during boot",
+      "D": "To speed up the boot process"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_388.png"
+  },
+  {
+    "id": 389,
+    "question": "What is the primary purpose of the Set User ID (SUID) bit in Linux file permissions?",
+    "options": {
+      "A": "To allow a file to be executed with the permissions of the file's owner",
+      "B": "To allow a file to be executed with the permissions of the group owner",
+      "C": "To allow any user to modify the file",
+      "D": "To allow a file to be executed as the root user, regardless of ownership"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_389.png"
+  },
+  {
+    "id": 390,
+    "question": "What is the main purpose of the shadow password suite in Linux systems?",
+    "options": {
+      "A": "To store user passwords in plain text",
+      "B": "To separate encrypted password storage from public access files for security",
+      "C": "To manage user permissions and privileges",
+      "D": "To monitor and log system usage and performance"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_390.png"
+  },
+  {
+    "id": 391,
+    "question": "What is the purpose of using SELinux in a Linux environment?",
+    "options": {
+      "A": "To enhance the graphical user interface",
+      "B": "To improve disk storage efficiency",
+      "C": "To enforce mandatory access control policies that limit application and system daemon access",
+      "D": "To speed up the operating system"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_391.png"
+  },
+  {
+    "id": 392,
+    "question": "What is the main difference between White-hat and Gray-hat hackers in terms of permission?",
+    "options": {
+      "A": "White-hat hackers have permission from the system owners, while Gray-hat hackers do not",
+      "B": "White-hat hackers do not have permission from the system owners, while Gray-hat hackers do",
+      "C": "Both White-hat and Gray-hat hackers have permission from the system owners",
+      "D": "Neither White-hat nor Gray-hat hackers have permission from the system owners"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_392.png"
+  },
+  {
+    "id": 393,
+    "question": "What is the difference between \"gratis\" and \"libre\" in the context of open source software?",
+    "options": {
+      "A": "\"Gratis\" means free as in \"free beer\" while \"libre\" means free as in \"free speech\"",
+      "B": "\"Gratis\" is software that cannot be modified, whereas \"libre\" can be sold for profit",
+      "C": "\"Gratis\" refers to commercial software, \"libre\" to non-commercial",
+      "D": "There is no significant difference; both terms mean the software is free of cost"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_393.png"
+  },
+  {
+    "id": 394,
+    "question": "What is the significance of testing the security of virtualized hardware?",
+    "options": {
+      "A": "Virtual hardware is immune to attacks",
+      "B": "Virtual machines are more vulnerable and need the same security measures as physical systems",
+      "C": "Virtual machines cannot be monitored",
+      "D": "Virtual hardware automatically updates itself, eliminating the need for security checks"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_394.png"
+  },
+  {
+    "id": 395,
+    "question": "What is a primary drawback of using a stock kernel as opposed to a custom-compiled kernel?",
+    "options": {
+      "A": "It typically lacks support for common hardware drivers",
+      "B": "It is not optimized for specific hardware, potentially leading to performance overhead",
+      "C": "It cannot run security-enhanced modules such as SELinux or AppArmor",
+      "D": "It disables kernel security features like Address Space Layout Randomization (ASLR)"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_395.png"
+  },
+  {
+    "id": 396,
+    "question": "What is the role of the kadmin command in basic Kerberos configuration?",
+    "options": {
+      "A": "It manages Kerberos ticket granting tickets (TGTs) for users",
+      "B": "It is used to add and manage Kerberos principals and policies in the KDC database",
+      "C": "It configures encryption algorithms for Kerberos tickets",
+      "D": "It verifies the Kerberos configuration for proper communication with the realm"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_396.png"
+  },
+  {
+    "id": 397,
+    "question": "What is the primary role of the Network Information Service (NIS) in shared networking environments?",
+    "options": {
+      "A": "To manage and enforce file permissions across networked systems",
+      "B": "To centralize the management of user accounts, groups, and hostnames for networked systems",
+      "C": "To enhance the performance of shared file transfers over the network",
+      "D": "To provide real-time monitoring of network traffic"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_397.png"
+  },
+  {
+    "id": 398,
+    "question": "What is the main difference in configuration between inetd and xinetd?",
+    "options": {
+      "A": "inetd uses a single configuration file, while xinetd uses multiple files",
+      "B": "inetd only supports TCP connections, while xinetd supports both TCP and UDP",
+      "C": "inetd requires root privileges to configure, while xinetd does not",
+      "D": "inetd runs as a single process, while xinetd spawns separate processes for each service",
+      "E": "inetd uses multiple configuration files, while xinetd uses a single file"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_398.png"
+  },
+  {
+    "id": 399,
+    "question": "What is a key benefit of the 'make menuconfig' command in kernel customization?",
+    "options": {
+      "A": "It simplifies email configuration",
+      "B": "It enhances the GUI",
+      "C": "It provides a practical method for customizing the kernel without a GUI",
+      "D": "It reduces kernel security"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_399.png"
+  },
+  {
+    "id": 400,
+    "question": "What is a drawback of the rsync command for backing up files?",
+    "options": {
+      "A": "It does not include free space in a disk or partition in the backup",
+      "B": "Efficiency",
+      "C": "It transmits data in clear text",
+      "D": "None of the other choices"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_400.png"
+  },
+  {
+    "id": 401,
+    "question": "What displays after running the service --status-all command on a system such as Ubuntu or Linux Mint?",
+    "options": {
+      "A": "A list of all the services on a system and their status",
+      "B": "A list of services currently running on a system but not those that are not running",
+      "C": "A list of services that are not running on a system but not those that are running",
+      "D": "A list of service dependencies"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_401.png"
+  },
+  {
+    "id": 402,
+    "question": "What would be the result of changing the GRUB option timeout=5 to timeout=0 on the Linux operating system?",
+    "options": {
+      "A": "The boot loader will immediately boot the operating system into the default kernel.",
+      "B": "The system will display a \"kernel panic\" error.",
+      "C": "All TCP/IP connections will timeout immediately.",
+      "D": "This will have no impact on the Linux operating system.",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_402.png"
+  },
+  {
+    "id": 403,
+    "question": "What happens when you attempt to edit files in a shared NFS directory remotely as root?",
+    "options": {
+      "A": "The change fails because the root user on one system is the nobody user on another system",
+      "B": "The change is successful",
+      "C": "The change is successful even if the NFS directory is shared in read-only mode",
+      "D": "The change fails unless you log in with the root administrative password from the remote system"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_403.png"
+  },
+  {
+    "id": 404,
+    "question": "Which of the following statements accurately describes the role of the Filesystem Hierarchy Standard (FHS) in Linux?",
+    "options": {
+      "A": "FHS is responsible for managing software repositories on Linux systems.",
+      "B": "FHS defines the naming conventions and structure for organizing files and directories in a Linux filesystem.",
+      "C": "FHS focuses on user authentication and access control within Linux distributions.",
+      "D": "FHS determines the graphical user interface (GUI) design and layout of Linux desktop environments."
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_404.png"
+  },
+  {
+    "id": 405,
+    "question": "Which of the following best describes the relationship between Linux and the GNU Project?",
+    "options": {
+      "A": "Linux is a part of the GNU Project.",
+      "B": "Linux uses GNU tools and utilities, and together they form a complete operating system.",
+      "C": "GNU developed the Linux kernel.",
+      "D": "GNU and Linux were developed as competing projects."
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_405.png"
+  },
+  {
+    "id": 406,
+    "question": "Which of the following is a correct description of a meta package in Ubuntu kernel packages?",
+    "options": {
+      "A": "It automatically installs the latest version of the Linux kernel",
+      "B": "It includes the source code for the kernel",
+      "C": "It is used for older versions of the kernel only",
+      "D": "It deactivates certain kernel features"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_406.png"
+  },
+  {
+    "id": 407,
+    "question": "Which of the following is a true statement?",
+    "options": {
+      "A": "A hash is a form of encryption.",
+      "B": "A hash function is a complex mathematical function that generates a value of a specific length no matter what the input length is.",
+      "C": "A hash converts encrypted passwords to cleartext.",
+      "D": "A hash function typically generates the same value twice given two separate input sources."
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_407.png"
+  },
+  {
+    "id": 408,
+    "question": "Which environment is best suited for using the Red Hat Satellite Server?",
+    "options": {
+      "A": "The LAN of enterprises",
+      "B": "The LAN of small businesses",
+      "C": "An organization that has a Web server that needs to be updated from the Internet",
+      "D": "An organization that does not require control over sending update alerts to servers",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_408.png"
+  },
+  {
+    "id": 409,
+    "question": "Why are group accounts important for managing user access in Linux?",
+    "options": {
+      "A": "They allow only administrators to manage security settings.",
+      "B": "They are used only for backup purposes.",
+      "C": "They allow permissions to be managed collectively rather than individually.",
+      "D": "They disable login attempts from unknown locations."
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_409.png"
+  },
+  {
+    "id": 410,
+    "question": "How does remote monitoring and logging enhance security management in Linux?",
+    "options": {
+      "A": "By consolidating log data from multiple systems for centralized monitoring",
+      "B": "By encrypting all log data",
+      "C": "By reducing the amount of log data generated",
+      "D": "By automating software updates"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_410.png"
+  },
+  {
+    "id": 411,
+    "question": "How does using a live CD help in handling compromised systems?",
+    "options": {
+      "A": "It allows for system analysis and recovery without relying on the potentially compromised local system's OS",
+      "B": "It increases the compromised system's performance",
+      "C": "It permanently installs critical security updates",
+      "D": "It provides additional storage space"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_411.png"
+  },
+  {
+    "id": 412,
+    "question": "How can you disable the packet forwarding on a running kernel?",
+    "options": {
+      "A": "Shut down the computer system and reconfigure it.",
+      "B": "Issue the # echo \"1\" > /proc/sys/net/ipv4/ip_forward command.",
+      "C": "Issue the # echo \"0\" > /proc/sys/net/ipv4/ip_forward command.",
+      "D": "Configure the settings using sysctl.conf file",
+      "E": "None of the other choices"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_412.png"
+  },
+  {
+    "id": 413,
+    "question": "When upgrading a stock kernel, which of the following is a major risk if the process is not completed correctly?",
+    "options": {
+      "A": "Increased performance but reduced security.",
+      "B": "Loss of hardware support and failure to boot the system.",
+      "C": "Automatic removal of user data from system directories.",
+      "D": "The creation of a secondary kernel without affecting the running system."
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_413.png"
+  },
+  {
+    "id": 415,
+    "question": "About the threat of the Live CD during the boot process. How does using a Live CD pose a security risk to a Linux system?",
+    "options": {
+      "A": "Live CDs provide better encryption for sensitive data.",
+      "B": "Live CDs cannot be used to access system files.",
+      "C": "Live CDs allow users to bypass security measures and access the system's data and resources.",
+      "D": "Live CDs automatically update the system's security settings."
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_415.png"
+  },
+  {
+    "id": 416,
+    "question": "A user needs access to execute networking-related commands only. What type of access should be granted using the principle of least privilege?",
+    "options": {
+      "A": "The user should be added to the admin group.",
+      "B": "The user should be given sudo access to all of root's commands.",
+      "C": "The user should be given sudo access to NETWORKING.",
+      "D": "The user should be provided with the root password.",
+      "E": "None of the other choices."
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_416.png"
+  },
+  {
+    "id": 417,
+    "question": "Critically analyze the impact of using Access Control Lists (ACLs) in managing file permissions on a Linux filesystem. How do ACLs differ from traditional Unix permissions?",
+    "options": {
+      "A": "ACLs offer hierarchical permission structures, unlike Unix permissions which are binary in nature.",
+      "B": "Unix permissions provide more flexibility compared to ACLs in defining access control.",
+      "C": "ACLs simplify user and group-based permission management compared to Unix permissions.",
+      "D": "Unix permissions are more robust in managing complex file access scenarios compared to ACLs."
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_417.png"
+  },
+  {
+    "id": 418,
+    "question": "ClamAV can be described as",
+    "options": {
+      "A": "A software management tool for Linux distributions.",
+      "B": "A firewall for Linux systems.",
+      "C": "An open-source anti-virus solution mainly used on Linux e-mail gateways.",
+      "D": "An open-source infrastructure for keeping software updated.",
+      "E": "None of the other choices."
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_418.png"
+  },
+  {
+    "id": 419,
+    "question": "Compare and contrast the benefits of using Samba/CIFS network permissions with those of NFS in terms of security and file access control in a Linux environment.",
+    "options": {
+      "A": "Samba/CIFS offers better encryption capabilities compared to NFS, ensuring secure file transfers.",
+      "B": "NFS provides more granular control over file access permissions compared to Samba/CIFS.",
+      "C": "Samba/CIFS introduces higher network latency than NFS due to its encryption protocols.",
+      "D": "NFS facilitates easier file sharing among diverse platforms compared to Samba/CIFS."
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_419.png"
+  },
+  {
+    "id": 420,
+    "question": "Evaluate the implications of using the Sticky Bit in a shared directory environment. What impact does it have on file management?",
+    "options": {
+      "A": "Facilitates efficient read access to files within the directory.",
+      "B": "Restricts users from reading files in the directory.",
+      "C": "Prevents unauthorized deletion of files by users other than the file owner.",
+      "D": "Allows users to modify files irrespective of ownership."
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_420.png"
+  },
+  {
+    "id": 421,
+    "question": "Differentiate between /etc/passwd and /etc/shadow in Linux. Which statement is true?",
+    "options": {
+      "A": "/etc/passwd stores user passwords while /etc/shadow contains user account information.",
+      "B": "/etc/passwd holds user account information while /etc/shadow stores encrypted passwords.",
+      "C": "/etc/passwd contains encrypted passwords whereas /etc/shadow stores user permissions.",
+      "D": "/etc/passwd and /etc/shadow both store user account information but in different formats."
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_421.png"
+  },
+  {
+    "id": 422,
+    "question": "In the Kerberos authentication process, what is the purpose of the Ticket Granting Ticket (TGT)?",
+    "options": {
+      "A": "It authenticates the user to the Kerberos server during their initial login.",
+      "B": "It allows the user to access services without re-entering their password.",
+      "C": "It encrypts the communication between the client and the service.",
+      "D": "It generates a new password for the user upon successful login."
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_422.png"
+  },
+  {
+    "id": 423,
+    "question": "In the context of Linux services, what is the purpose of chroot jail?",
+    "options": {
+      "A": "To enhance the system's graphical interface.",
+      "B": "To limit a program's access to a specific subset of the filesystem, enhancing security.",
+      "C": "To speed up the Linux boot process.",
+      "D": "To allocate more system resources to the service."
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_423.png"
+  },
+  {
+    "id": 424,
+    "question": "In Apache Web Server, what is the KeepAlive directive associated with?",
+    "options": {
+      "A": "User authentication.",
+      "B": "Persistent connections from remote systems.",
+      "C": "What displays when a user navigates to a nonexistent web page.",
+      "D": "Maximum number of clients.",
+      "E": "None of the other choices."
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_424.png"
+  },
+  {
+    "id": 425,
+    "question": "In the following partial LILO configuration file (/etc/lilo.conf), what is the purpose of the password= line under the image specification? default=\"Linux\" boot=/dev/hda map=/boot/map prompt timeout=100 message=/boot/message image=/boot/vmlinuz password=MyPassw0rd label=\"Linux\" root=/dev/hda1",
+    "options": {
+      "A": "It provides the password that must be entered before Linux will boot.",
+      "B": "It requires a password to be entered before any operating system is booted on a dual-booting system.",
+      "C": "It requires a password to be entered for access to Linux applications.",
+      "D": "It has no impact on the Linux operating system."
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_425.png"
+  },
+  {
+    "id": 426,
+    "question": "In the context of Linux distributions, differentiate between Linux Loader (LILO) and Grand Unified Boot Loader (GRUB). Which statement is correct?",
+    "options": {
+      "A": "LILO is more commonly used than GRUB in modern Linux distributions.",
+      "B": "GRUB is a deprecated boot loader, while LILO is actively maintained.",
+      "C": "LILO provides a graphical interface for selecting boot options.",
+      "D": "GRUB is only used in cloud-based Linux systems."
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_426.png"
+  },
+  {
+    "id": 427,
+    "question": "Jackie is an administrator of a departmental network that runs Red Hat. A user requested access to execute networking-related commands only. What type of access should be granted to delegate the most limited administrative permissions to the user?",
+    "options": {
+      "A": "The user should be added to the admin group.",
+      "B": "The user should be given sudo access to all of root's commands.",
+      "C": "The user should be given sudo access, and the /etc/sudoers file should be modified for NETWORKING.",
+      "D": "The user should be provided with the root password."
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_427.png"
+  },
+  {
+    "id": 428,
+    "question": "Mandatory access controls are described as:",
+    "options": {
+      "A": "Policies and permissions that can be changed by any user.",
+      "B": "Set exclusively at the application level.",
+      "C": "Established at the system level and cannot be changed by users.",
+      "D": "Only applicable to network services."
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_428.png"
+  },
+  {
+    "id": 429,
+    "question": "Maria is a user on a Linux-based infrastructure. She is using an Ubuntu laptop to attempt to access a shared folder on her Red Hat client computer on a Network File System (NFS) network. She is unable to gain access. She asks a network administrator what the problem could be. What is the answer?",
+    "options": {
+      "A": "She has different user IDs (UIDs) on each system for user authentication.",
+      "B": "She has two different usernames and passwords on the Ubuntu system and the Red Hat system.",
+      "C": "She used a username and password when NFS does not require it.",
+      "D": "When making the request, she forgot to specify a port number for the connection."
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_429.png"
+  },
+  {
+    "id": 430,
+    "question": "The '/srv/' directory in a Linux file system is primarily intended for what purpose?",
+    "options": {
+      "A": "It houses system libraries and shared files.",
+      "B": "It contains system configuration files for services.",
+      "C": "It is designated for storing service-specific data and files associated with services running on the system.",
+      "D": "It serves as a temporary directory for services running on the system."
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_430.png"
+  },
+  {
+    "id": 431,
+    "question": "You are configuring Kerberos for network authentication. Which of the following steps do you perform first?",
+    "options": {
+      "A": "Set up keytab files.",
+      "B": "Create the Kerberos database.",
+      "C": "Set up keys to connect the local Kerberos server system with desired clients.",
+      "D": "Modify the /etc/krb5.conf file.",
+      "E": "None of the other choices."
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_431.png"
+  },
+  {
+    "id": 432,
+    "question": "You are trying to configure logging for services and the kernel on the latest version of a Linux system. You switch to the /sbin/ directory but do not find the service daemons syslogd and klogd. What is wrong?",
+    "options": {
+      "A": "The Linux version you are using does not allow logging.",
+      "B": "The latest versions of Linux store syslogd and klogd in the /home/ directory.",
+      "C": "The latest versions of Linux include the rsyslog daemon in the /sbin/ directory for services logging.",
+      "D": "The syslogd and klogd daemons have been corrupted and must be recompiled and installed."
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_432.png"
+  },
+  {
+    "id": 433,
+    "question": "Why is having a firewall on each host server important in a Linux environment?",
+    "options": {
+      "A": "It slows down the network traffic significantly to prevent attacks.",
+      "B": "It provides an additional layer of protection if perimeter defenses fail.",
+      "C": "It enables remote administration over unsecured networks.",
+      "D": "It replaces the need for a perimeter firewall entirely."
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_433.png"
+  },
+  {
+    "id": 434,
+    "question": "What is the primary purpose of the Pluggable Authentication Module (PAM) framework in Linux systems?",
+    "options": {
+      "A": "Managing hardware devices and drivers.",
+      "B": "Configuring the graphical user interface (GUI).",
+      "C": "Providing a standardized way to handle authentication and access control.",
+      "D": "Optimizing system performance and resource utilization."
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_434.png"
+  },
+  {
+    "id": 435,
+    "question": "What security practice is recommended when setting GRUB passwords?",
+    "options": {
+      "A": "Use simple passwords for ease of recovery",
+      "B": "Use the same password as the root user",
+      "C": "Encrypt the password using MD5 or another secure method",
+      "D": "None, GRUB does not support password protection"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_435.png"
+  },
+  {
+    "id": 436,
+    "question": "What is the primary benefit of implementing layered security for FTP access?",
+    "options": {
+      "A": "To provide redundancy in case one layer fails",
+      "B": "To enhance security by using multiple methods to regulate access and actions",
+      "C": "To improve FTP performance",
+      "D": "To simplify the FTP setup process"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_436.png"
+  },
+  {
+    "id": 438,
+    "question": "What is the primary use of Kerberos in networked environments?",
+    "options": {
+      "A": "To encrypt all user data on the network",
+      "B": "For authentication across multiple systems",
+      "C": "To monitor network traffic",
+      "D": "As a replacement for SSH"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_438.png"
+  },
+  {
+    "id": 439,
+    "question": "What is a potential drawback of using filesystem encryption?",
+    "options": {
+      "A": "It can lead to data loss if passwords are forgotten",
+      "B": "It can complicate the resizing of filesystems later on",
+      "C": "It significantly reduces system performance",
+      "D": "It is incompatible with most Linux distributions"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_439.png"
+  },
+  {
+    "id": 440,
+    "question": "What is a major risk of using virtual machines in Linux environments?",
+    "options": {
+      "A": "BIOS attack",
+      "B": "Bootloader compromise",
+      "C": "Virtual machine escape",
+      "D": "Unused services"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_440.png"
+  },
+  {
+    "id": 441,
+    "question": "What tools can you use to provide access control at the network level without using the super server?",
+    "options": {
+      "A": "Network libraries",
+      "B": "UDP ACLs",
+      "C": "TCP Wrapper",
+      "D": "TCP ACLs",
+      "E": "All of the above"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_441.png"
+  },
+  {
+    "id": 442,
+    "question": "Which is an example of Discretionary Access Controls (DAC)?",
+    "options": {
+      "A": "SELinux",
+      "B": "AppArmor",
+      "C": "PolicyKit",
+      "D": "User-defined read, write, and execute permissions"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_442.png"
+  },
+  {
+    "id": 443,
+    "question": "Which command is used to assign the SGID bit to a directory?",
+    "options": {
+      "A": "chmod g+s",
+      "B": "chmod u+s",
+      "C": "chmod +x",
+      "D": "chmod 644"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_443.png"
+  },
+  {
+    "id": 444,
+    "question": "Which of the following chmod commands will give the owner read and write permissions, the group read-only permissions, and others no permissions to the file \"example.txt\"?",
+    "options": {
+      "A": "chmod 640 example.txt",
+      "B": "chmod 750 example.txt",
+      "C": "chmod 440 example.txt",
+      "D": "chmod 654 example.txt"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_444.png"
+  },
+  {
+    "id": 445,
+    "question": "Which iptables command is used to immediately drop (discard) all incoming traffic from IP_ADDR?",
+    "options": {
+      "A": "iptables -A INPUT -s IP_ADDR -j DROP",
+      "B": "iptables -P INPUT IP_ADDR DROP",
+      "C": "iptables -A INPUT IP_ADDR -j REJECT",
+      "D": "iptables -A INPUT -d IP_ADDR -j DROP"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_445.png"
+  },
+  {
+    "id": 446,
+    "question": "Which service is required with Kerberos?",
+    "options": {
+      "A": "ping",
+      "B": "trace",
+      "C": "NTP",
+      "D": "ARP",
+      "E": "All of the above"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_446.png"
+  },
+  {
+    "id": 447,
+    "question": "Which iptables chains must be defined in a basic firewall setup?",
+    "options": {
+      "A": "INPUT. OUTPUT. FORWARD",
+      "B": "ACCEPT. DROP. REJECT",
+      "C": "LOCAL. REMOTE. FORWARD",
+      "D": "IN. OUT. THROUGH"
+    },
+    "correct_answer": "A",
+    "note_raw": "A",
+    "image_path": "osp201_screenshots/slide_447.png"
+  },
+  {
+    "id": 448,
+    "question": "Which SELinux command changes the security context of a file?",
+    "options": {
+      "A": "semanage",
+      "B": "chcon",
+      "C": "restorecon",
+      "D": "setenforce"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_448.png"
+  },
+  {
+    "id": 449,
+    "question": "Which of the following is the main init system in CentOS 7?",
+    "options": {
+      "A": "SysV",
+      "B": "Upstart",
+      "C": "BSD Init",
+      "D": "Systemd"
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_449.png"
+  },
+  {
+    "id": 450,
+    "question": "Which authentication method is more secure than passwords for SSH?",
+    "options": {
+      "A": "Public IP authentication",
+      "B": "Hostname whitelisting",
+      "C": "Public/private key with passphrase",
+      "D": "FTP login"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_450.png"
+  },
+  {
+    "id": 451,
+    "question": "A company wants to deploy a secure remote access service using Linux. Which feature should they prioritize?",
+    "options": {
+      "A": "Tripwire",
+      "B": "TCP Wrappers",
+      "C": "VPN with IPSec",
+      "D": "Sendmail"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_451.png"
+  },
+  {
+    "id": 452,
+    "question": "The Parkerian Hexad is an extension to which security model?",
+    "options": {
+      "A": "CISSP Domains",
+      "B": "CIA Triad",
+      "C": "NIST Framework",
+      "D": "ISO Standards"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_452.png"
+  },
+  {
+    "id": 454,
+    "question": "What is the main difference between DAC and MAC in Linux access control mechanisms?",
+    "options": {
+      "A": "DAC is stricter and enforces system-wide rules, while MAC is user-defined.",
+      "B": "MAC enforces centralized, system-wide policies, while DAC allows user-defined permissions.",
+      "C": "DAC uses kernel modules, MAC uses user space.",
+      "D": "MAC is less secure and should be disabled in most systems."
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_454.png"
+  },
+  {
+    "id": 455,
+    "question": "What is an advantage of vendor-supported software management plans?",
+    "options": {
+      "A": "They provide unlimited software licenses",
+      "B": "They are suited for mission-critical servers with support for quick patching and updates",
+      "C": "They require extensive Linux system administration knowledge",
+      "D": "They are cheaper than community-supported plans"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_455.png"
+  },
+  {
+    "id": 456,
+    "question": "What is the primary purpose of using live Linux CDs during a forensic investigation?",
+    "options": {
+      "A": "To install new software",
+      "B": "To recover dynamic data from compromised systems",
+      "C": "To update system drivers",
+      "D": "To format hard drives"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_456.png"
+  },
+  {
+    "id": 457,
+    "question": "What is the primary reason that makes open source software like Linux potentially more secure?",
+    "options": {
+      "A": "More developers",
+      "B": "Faster bug fixes due to public access to source code",
+      "C": "Stronger encryption standards",
+      "D": "Government regulation"
+    },
+    "correct_answer": "B",
+    "note_raw": "B",
+    "image_path": "osp201_screenshots/slide_457.png"
+  },
+  {
+    "id": 458,
+    "question": "Which of the following statements is accurate with the user private group scheme?",
+    "options": {
+      "A": "There are no private groups in Linux",
+      "B": "User information in the group is private",
+      "C": "The primary UID for the user is the same as the primary GID for the user",
+      "D": "Users are members of the same private group",
+      "E": "All users only have GID, no UID"
+    },
+    "correct_answer": "C",
+    "note_raw": "C",
+    "image_path": "osp201_screenshots/slide_458.png"
+  },
+  {
+    "id": 459,
+    "question": "Why might a system administrator choose to replace a stock kernel with a custom kernel?",
+    "options": {
+      "A": "To enable additional debugging and performance monitoring tools.",
+      "B": "To disable all security features and streamline system performance.",
+      "C": "To improve compatibility with proprietary hardware not supported by the stock kernel.",
+      "D": "To use a real-time kernel for specialized applications like audio processing or low-latency systems."
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_459.png"
+  },
+  {
+    "id": 460,
+    "question": "Which of the following statements correctly differentiates RPM and YUM in the context of package management on Red Hat-based Linux systems?",
+    "options": {
+      "A": "RPM is a graphical package manager, while YUM is a command-line package manager.",
+      "B": "RPM can automatically resolve package dependencies, while YUM requires manual dependency management.",
+      "C": "RPM and YUM are essentially the same and can be used interchangeably.",
+      "D": "YUM automates dependency detection and installation, while RPM users must specify each dependency's location manually."
+    },
+    "correct_answer": "D",
+    "note_raw": "D",
+    "image_path": "osp201_screenshots/slide_460.png"
+  }
+]
